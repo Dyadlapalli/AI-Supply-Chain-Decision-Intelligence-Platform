@@ -218,3 +218,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Generated full ERP extracts (~100 MB) - rebuild with 03_Source_Data/generate_erp_data.py
+# A 1,000-row sample is committed under 03_Source_Data/erp_data/sample/
+03_Source_Data/erp_data/golden/
+03_Source_Data/erp_data/raw/
