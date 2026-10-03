@@ -1,0 +1,303 @@
+override_id,branch_id,scope_level,scope_value,forecast_month,adjustment_pct,reason,submitted_by,submitted_date,approval_status,approved_by
+1,B004,Product Family,Power Systems,2024-08-01,40,Hurricane season - generator demand,M. Patel,2024-07-13,Approved,R. Alvarez
+2,B005,Product Family,Power Systems,2024-08-01,40,Hurricane season - generator demand,D. Carter-Lee,2024-07-06,Approved,J. Thompson
+3,B006,Product Family,Power Systems,2024-08-01,40,Hurricane season - generator demand,K. Nguyen,2024-07-05,Approved,S. Brooks
+4,B014,Product Family,Power Systems,2024-08-01,40,Hurricane season - generator demand,K. Nguyen,2024-07-01,Approved,S. Brooks
+5,B017,Product Family,Power Systems,2024-08-01,40,Hurricane season - generator demand,R. Alvarez,2024-07-09,Approved,K. Nguyen
+6,B026,Product Family,Power Systems,2024-08-01,40,Hurricane season - generator demand,R. Alvarez,2024-06-30,Approved,K. Nguyen
+7,B028,Product Family,Power Systems,2024-08-01,40,Hurricane season - generator demand,S. Brooks,2024-07-03,Approved,D. Carter-Lee
+8,B004,Product Family,Power Systems,2024-09-01,40,Hurricane season - generator demand,S. Brooks,2024-08-08,Approved,D. Carter-Lee
+9,B005,Product Family,Power Systems,2024-09-01,40,Hurricane season - generator demand,S. Brooks,2024-08-09,Approved,D. Carter-Lee
+10,B006,Product Family,Power Systems,2024-09-01,40,Hurricane season - generator demand,R. Alvarez,2024-08-21,Approved,K. Nguyen
+11,B014,Product Family,Power Systems,2024-09-01,40,Hurricane season - generator demand,M. Patel,2024-07-28,Approved,R. Alvarez
+12,B017,Product Family,Power Systems,2024-09-01,40,Hurricane season - generator demand,J. Thompson,2024-08-15,Approved,M. Patel
+13,B026,Product Family,Power Systems,2024-09-01,40,Hurricane season - generator demand,S. Brooks,2024-07-23,Approved,D. Carter-Lee
+14,B028,Product Family,Power Systems,2024-09-01,40,Hurricane season - generator demand,R. Alvarez,2024-08-08,Approved,K. Nguyen
+15,B004,Product Family,Power Systems,2024-10-01,40,Hurricane season - generator demand,K. Nguyen,2024-08-26,Approved,S. Brooks
+16,B005,Product Family,Power Systems,2024-10-01,40,Hurricane season - generator demand,R. Alvarez,2024-09-15,Approved,K. Nguyen
+17,B006,Product Family,Power Systems,2024-10-01,40,Hurricane season - generator demand,R. Alvarez,2024-09-13,Approved,K. Nguyen
+18,B014,Product Family,Power Systems,2024-10-01,40,Hurricane season - generator demand,S. Brooks,2024-09-17,Approved,D. Carter-Lee
+19,B017,Product Family,Power Systems,2024-10-01,40,Hurricane season - generator demand,K. Nguyen,2024-09-17,Approved,S. Brooks
+20,B026,Product Family,Power Systems,2024-10-01,40,Hurricane season - generator demand,D. Carter-Lee,2024-08-30,Approved,J. Thompson
+21,B028,Product Family,Power Systems,2024-10-01,40,Hurricane season - generator demand,J. Thompson,2024-08-19,Approved,M. Patel
+22,B028,Product Family,Earthmoving,2024-04-01,15,Spring construction ramp,K. Nguyen,2024-03-20,Approved,S. Brooks
+23,B003,Product Family,Earthmoving,2024-04-01,15,Spring construction ramp,M. Patel,2024-02-23,Approved,R. Alvarez
+24,B024,Product Family,Earthmoving,2024-04-01,15,Spring construction ramp,R. Alvarez,2024-03-01,Approved,K. Nguyen
+25,B013,Product Family,Earthmoving,2024-04-01,15,Spring construction ramp,D. Carter-Lee,2024-03-08,Approved,J. Thompson
+26,B014,Product Family,Earthmoving,2024-04-01,15,Spring construction ramp,R. Alvarez,2024-02-23,Approved,K. Nguyen
+27,B005,Product Family,Earthmoving,2024-04-01,15,Spring construction ramp,J. Thompson,2024-03-07,Approved,M. Patel
+28,B020,Product Family,Earthmoving,2024-04-01,15,Spring construction ramp,D. Carter-Lee,2024-03-15,Approved,J. Thompson
+29,B019,Product Family,Earthmoving,2024-04-01,15,Spring construction ramp,M. Patel,2024-03-06,Approved,R. Alvarez
+30,B005,Product Family,Earthmoving,2024-05-01,15,Spring construction ramp,J. Thompson,2024-04-13,Approved,M. Patel
+31,B012,Product Family,Earthmoving,2024-05-01,15,Spring construction ramp,D. Carter-Lee,2024-04-14,Approved,J. Thompson
+32,B008,Product Family,Earthmoving,2024-05-01,15,Spring construction ramp,S. Brooks,2024-04-07,Approved,D. Carter-Lee
+33,B011,Product Family,Earthmoving,2024-05-01,15,Spring construction ramp,S. Brooks,2024-04-10,Approved,D. Carter-Lee
+34,B004,Product Family,Earthmoving,2024-05-01,15,Spring construction ramp,D. Carter-Lee,2024-04-09,Approved,J. Thompson
+35,B024,Product Family,Earthmoving,2024-05-01,15,Spring construction ramp,S. Brooks,2024-03-23,Approved,D. Carter-Lee
+36,B006,Product Family,Earthmoving,2024-05-01,15,Spring construction ramp,R. Alvarez,2024-03-29,Approved,K. Nguyen
+37,B002,Product Family,Earthmoving,2024-05-01,15,Spring construction ramp,J. Thompson,2024-04-04,Approved,M. Patel
+38,B002,Product Family,Earthmoving,2024-06-01,15,Spring construction ramp,D. Carter-Lee,2024-04-20,Approved,J. Thompson
+39,B001,Product Family,Earthmoving,2024-06-01,15,Spring construction ramp,S. Brooks,2024-04-19,Approved,D. Carter-Lee
+40,B024,Product Family,Earthmoving,2024-06-01,15,Spring construction ramp,D. Carter-Lee,2024-04-26,Approved,J. Thompson
+41,B010,Product Family,Earthmoving,2024-06-01,15,Spring construction ramp,K. Nguyen,2024-05-15,Approved,S. Brooks
+42,B028,Product Family,Earthmoving,2024-06-01,15,Spring construction ramp,S. Brooks,2024-05-16,Approved,D. Carter-Lee
+43,B022,Product Family,Earthmoving,2024-06-01,15,Spring construction ramp,M. Patel,2024-04-22,Approved,R. Alvarez
+44,B006,Product Family,Earthmoving,2024-06-01,15,Spring construction ramp,J. Thompson,2024-05-18,Approved,M. Patel
+45,B015,Product Family,Earthmoving,2024-06-01,15,Spring construction ramp,K. Nguyen,2024-05-02,Approved,S. Brooks
+46,B004,Product Family,Power Systems,2025-08-01,40,Hurricane season - generator demand,J. Thompson,2025-07-09,Approved,M. Patel
+47,B005,Product Family,Power Systems,2025-08-01,40,Hurricane season - generator demand,M. Patel,2025-07-12,Approved,R. Alvarez
+48,B006,Product Family,Power Systems,2025-08-01,40,Hurricane season - generator demand,M. Patel,2025-06-29,Approved,R. Alvarez
+49,B014,Product Family,Power Systems,2025-08-01,40,Hurricane season - generator demand,R. Alvarez,2025-06-19,Approved,K. Nguyen
+50,B017,Product Family,Power Systems,2025-08-01,40,Hurricane season - generator demand,J. Thompson,2025-06-25,Approved,M. Patel
+51,B026,Product Family,Power Systems,2025-08-01,40,Hurricane season - generator demand,D. Carter-Lee,2025-07-05,Approved,J. Thompson
+52,B028,Product Family,Power Systems,2025-08-01,40,Hurricane season - generator demand,S. Brooks,2025-07-07,Approved,D. Carter-Lee
+53,B004,Product Family,Power Systems,2025-09-01,40,Hurricane season - generator demand,K. Nguyen,2025-07-22,Approved,S. Brooks
+54,B005,Product Family,Power Systems,2025-09-01,40,Hurricane season - generator demand,K. Nguyen,2025-08-02,Approved,S. Brooks
+55,B006,Product Family,Power Systems,2025-09-01,40,Hurricane season - generator demand,D. Carter-Lee,2025-08-05,Approved,J. Thompson
+56,B014,Product Family,Power Systems,2025-09-01,40,Hurricane season - generator demand,M. Patel,2025-07-30,Approved,R. Alvarez
+57,B017,Product Family,Power Systems,2025-09-01,40,Hurricane season - generator demand,S. Brooks,2025-08-14,Approved,D. Carter-Lee
+58,B026,Product Family,Power Systems,2025-09-01,40,Hurricane season - generator demand,S. Brooks,2025-08-20,Approved,D. Carter-Lee
+59,B028,Product Family,Power Systems,2025-09-01,40,Hurricane season - generator demand,M. Patel,2025-07-24,Approved,R. Alvarez
+60,B004,Product Family,Power Systems,2025-10-01,40,Hurricane season - generator demand,K. Nguyen,2025-08-31,Approved,S. Brooks
+61,B005,Product Family,Power Systems,2025-10-01,40,Hurricane season - generator demand,K. Nguyen,2025-09-16,Approved,S. Brooks
+62,B006,Product Family,Power Systems,2025-10-01,40,Hurricane season - generator demand,D. Carter-Lee,2025-09-11,Approved,J. Thompson
+63,B014,Product Family,Power Systems,2025-10-01,40,Hurricane season - generator demand,S. Brooks,2025-08-18,Approved,D. Carter-Lee
+64,B017,Product Family,Power Systems,2025-10-01,40,Hurricane season - generator demand,M. Patel,2025-08-30,Approved,R. Alvarez
+65,B026,Product Family,Power Systems,2025-10-01,40,Hurricane season - generator demand,J. Thompson,2025-08-30,Approved,M. Patel
+66,B028,Product Family,Power Systems,2025-10-01,40,Hurricane season - generator demand,R. Alvarez,2025-09-19,Approved,K. Nguyen
+67,B010,Product Family,Earthmoving,2025-04-01,15,Spring construction ramp,D. Carter-Lee,2025-03-20,Approved,J. Thompson
+68,B005,Product Family,Earthmoving,2025-04-01,15,Spring construction ramp,D. Carter-Lee,2025-02-21,Approved,J. Thompson
+69,B008,Product Family,Earthmoving,2025-04-01,15,Spring construction ramp,K. Nguyen,2025-02-19,Approved,S. Brooks
+70,B016,Product Family,Earthmoving,2025-04-01,15,Spring construction ramp,M. Patel,2025-02-25,Approved,R. Alvarez
+71,B026,Product Family,Earthmoving,2025-04-01,15,Spring construction ramp,S. Brooks,2025-03-02,Approved,D. Carter-Lee
+72,B023,Product Family,Earthmoving,2025-04-01,15,Spring construction ramp,D. Carter-Lee,2025-02-20,Approved,J. Thompson
+73,B002,Product Family,Earthmoving,2025-04-01,15,Spring construction ramp,S. Brooks,2025-03-02,Approved,D. Carter-Lee
+74,B018,Product Family,Earthmoving,2025-04-01,15,Spring construction ramp,D. Carter-Lee,2025-03-03,Approved,J. Thompson
+75,B009,Product Family,Earthmoving,2025-05-01,15,Spring construction ramp,M. Patel,2025-04-10,Approved,R. Alvarez
+76,B028,Product Family,Earthmoving,2025-05-01,15,Spring construction ramp,D. Carter-Lee,2025-04-04,Approved,J. Thompson
+77,B015,Product Family,Earthmoving,2025-05-01,15,Spring construction ramp,K. Nguyen,2025-03-24,Approved,S. Brooks
+78,B006,Product Family,Earthmoving,2025-05-01,15,Spring construction ramp,M. Patel,2025-04-12,Approved,R. Alvarez
+79,B019,Product Family,Earthmoving,2025-05-01,15,Spring construction ramp,J. Thompson,2025-04-13,Approved,M. Patel
+80,B021,Product Family,Earthmoving,2025-05-01,15,Spring construction ramp,K. Nguyen,2025-03-27,Approved,S. Brooks
+81,B004,Product Family,Earthmoving,2025-05-01,15,Spring construction ramp,M. Patel,2025-04-06,Approved,R. Alvarez
+82,B022,Product Family,Earthmoving,2025-05-01,15,Spring construction ramp,M. Patel,2025-03-24,Approved,R. Alvarez
+83,B025,Product Family,Earthmoving,2025-06-01,15,Spring construction ramp,J. Thompson,2025-05-01,Approved,M. Patel
+84,B005,Product Family,Earthmoving,2025-06-01,15,Spring construction ramp,R. Alvarez,2025-04-22,Approved,K. Nguyen
+85,B015,Product Family,Earthmoving,2025-06-01,15,Spring construction ramp,M. Patel,2025-04-22,Approved,R. Alvarez
+86,B022,Product Family,Earthmoving,2025-06-01,15,Spring construction ramp,S. Brooks,2025-05-18,Approved,D. Carter-Lee
+87,B026,Product Family,Earthmoving,2025-06-01,15,Spring construction ramp,S. Brooks,2025-04-27,Approved,D. Carter-Lee
+88,B010,Product Family,Earthmoving,2025-06-01,15,Spring construction ramp,R. Alvarez,2025-05-17,Approved,K. Nguyen
+89,B017,Product Family,Earthmoving,2025-06-01,15,Spring construction ramp,R. Alvarez,2025-05-01,Approved,K. Nguyen
+90,B012,Product Family,Earthmoving,2025-06-01,15,Spring construction ramp,J. Thompson,2025-05-11,Approved,M. Patel
+91,B004,Product Family,Power Systems,2026-08-01,40,Hurricane season - generator demand,S. Brooks,2026-07-03,Approved,D. Carter-Lee
+92,B005,Product Family,Power Systems,2026-08-01,40,Hurricane season - generator demand,D. Carter-Lee,2026-07-15,Approved,J. Thompson
+93,B006,Product Family,Power Systems,2026-08-01,40,Hurricane season - generator demand,S. Brooks,2026-07-08,Approved,D. Carter-Lee
+94,B014,Product Family,Power Systems,2026-08-01,40,Hurricane season - generator demand,M. Patel,2026-06-19,Approved,R. Alvarez
+95,B017,Product Family,Power Systems,2026-08-01,40,Hurricane season - generator demand,K. Nguyen,2026-07-04,Approved,S. Brooks
+96,B026,Product Family,Power Systems,2026-08-01,40,Hurricane season - generator demand,M. Patel,2026-06-22,Approved,R. Alvarez
+97,B028,Product Family,Power Systems,2026-08-01,40,Hurricane season - generator demand,J. Thompson,2026-07-18,Approved,M. Patel
+98,B004,Product Family,Power Systems,2026-09-01,40,Hurricane season - generator demand,M. Patel,2026-07-31,Approved,R. Alvarez
+99,B005,Product Family,Power Systems,2026-09-01,40,Hurricane season - generator demand,J. Thompson,2026-07-26,Approved,M. Patel
+100,B006,Product Family,Power Systems,2026-09-01,40,Hurricane season - generator demand,M. Patel,2026-07-30,Approved,R. Alvarez
+101,B014,Product Family,Power Systems,2026-09-01,40,Hurricane season - generator demand,S. Brooks,2026-07-23,Approved,D. Carter-Lee
+102,B017,Product Family,Power Systems,2026-09-01,40,Hurricane season - generator demand,M. Patel,2026-08-20,Approved,R. Alvarez
+103,B026,Product Family,Power Systems,2026-09-01,40,Hurricane season - generator demand,S. Brooks,2026-08-07,Approved,D. Carter-Lee
+104,B028,Product Family,Power Systems,2026-09-01,40,Hurricane season - generator demand,D. Carter-Lee,2026-08-16,Approved,J. Thompson
+105,B004,Product Family,Power Systems,2026-10-01,40,Hurricane season - generator demand,K. Nguyen,2026-09-17,Approved,S. Brooks
+106,B005,Product Family,Power Systems,2026-10-01,40,Hurricane season - generator demand,R. Alvarez,2026-09-21,Approved,K. Nguyen
+107,B006,Product Family,Power Systems,2026-10-01,40,Hurricane season - generator demand,S. Brooks,2026-08-31,Approved,D. Carter-Lee
+108,B014,Product Family,Power Systems,2026-10-01,40,Hurricane season - generator demand,J. Thompson,2026-09-04,Approved,M. Patel
+109,B017,Product Family,Power Systems,2026-10-01,40,Hurricane season - generator demand,R. Alvarez,2026-08-29,Approved,K. Nguyen
+110,B026,Product Family,Power Systems,2026-10-01,40,Hurricane season - generator demand,R. Alvarez,2026-09-05,Approved,K. Nguyen
+111,B028,Product Family,Power Systems,2026-10-01,40,Hurricane season - generator demand,S. Brooks,2026-09-03,Approved,D. Carter-Lee
+112,B010,Product Family,Earthmoving,2026-04-01,15,Spring construction ramp,D. Carter-Lee,2026-02-21,Approved,J. Thompson
+113,B022,Product Family,Earthmoving,2026-04-01,15,Spring construction ramp,D. Carter-Lee,2026-02-26,Approved,J. Thompson
+114,B012,Product Family,Earthmoving,2026-04-01,15,Spring construction ramp,K. Nguyen,2026-03-04,Approved,S. Brooks
+115,B021,Product Family,Earthmoving,2026-04-01,15,Spring construction ramp,M. Patel,2026-02-22,Approved,R. Alvarez
+116,B004,Product Family,Earthmoving,2026-04-01,15,Spring construction ramp,S. Brooks,2026-02-20,Approved,D. Carter-Lee
+117,B027,Product Family,Earthmoving,2026-04-01,15,Spring construction ramp,S. Brooks,2026-03-06,Approved,D. Carter-Lee
+118,B005,Product Family,Earthmoving,2026-04-01,15,Spring construction ramp,M. Patel,2026-02-16,Approved,R. Alvarez
+119,B002,Product Family,Earthmoving,2026-04-01,15,Spring construction ramp,S. Brooks,2026-02-20,Approved,D. Carter-Lee
+120,B018,Product Family,Earthmoving,2026-05-01,15,Spring construction ramp,K. Nguyen,2026-04-20,Approved,S. Brooks
+121,B028,Product Family,Earthmoving,2026-05-01,15,Spring construction ramp,J. Thompson,2026-03-28,Approved,M. Patel
+122,B016,Product Family,Earthmoving,2026-05-01,15,Spring construction ramp,M. Patel,2026-04-19,Approved,R. Alvarez
+123,B010,Product Family,Earthmoving,2026-05-01,15,Spring construction ramp,S. Brooks,2026-03-31,Approved,D. Carter-Lee
+124,B027,Product Family,Earthmoving,2026-05-01,15,Spring construction ramp,J. Thompson,2026-04-04,Approved,M. Patel
+125,B026,Product Family,Earthmoving,2026-05-01,15,Spring construction ramp,R. Alvarez,2026-04-21,Approved,K. Nguyen
+126,B021,Product Family,Earthmoving,2026-05-01,15,Spring construction ramp,K. Nguyen,2026-04-08,Approved,S. Brooks
+127,B006,Product Family,Earthmoving,2026-05-01,15,Spring construction ramp,D. Carter-Lee,2026-04-17,Approved,J. Thompson
+128,B018,Product Family,Earthmoving,2026-06-01,15,Spring construction ramp,J. Thompson,2026-04-26,Approved,M. Patel
+129,B008,Product Family,Earthmoving,2026-06-01,15,Spring construction ramp,S. Brooks,2026-05-08,Approved,D. Carter-Lee
+130,B025,Product Family,Earthmoving,2026-06-01,15,Spring construction ramp,M. Patel,2026-05-18,Approved,R. Alvarez
+131,B014,Product Family,Earthmoving,2026-06-01,15,Spring construction ramp,R. Alvarez,2026-04-29,Approved,K. Nguyen
+132,B027,Product Family,Earthmoving,2026-06-01,15,Spring construction ramp,S. Brooks,2026-05-16,Approved,D. Carter-Lee
+133,B009,Product Family,Earthmoving,2026-06-01,15,Spring construction ramp,J. Thompson,2026-05-03,Approved,M. Patel
+134,B003,Product Family,Earthmoving,2026-06-01,15,Spring construction ramp,K. Nguyen,2026-04-18,Approved,S. Brooks
+135,B001,Product Family,Earthmoving,2026-06-01,15,Spring construction ramp,S. Brooks,2026-05-03,Approved,D. Carter-Lee
+136,B001,Product Family,Mining,2025-01-01,-20,Met coal slowdown - customer idling,K. Nguyen,2024-11-30,Approved,S. Brooks
+137,B002,Product Family,Mining,2025-01-01,-20,Met coal slowdown - customer idling,R. Alvarez,2024-11-29,Approved,K. Nguyen
+138,B011,Product Family,Mining,2025-01-01,-20,Met coal slowdown - customer idling,M. Patel,2024-11-23,Approved,R. Alvarez
+139,B012,Product Family,Mining,2025-01-01,-20,Met coal slowdown - customer idling,D. Carter-Lee,2024-12-07,Approved,J. Thompson
+140,B016,Product Family,Mining,2025-01-01,-20,Met coal slowdown - customer idling,R. Alvarez,2024-12-05,Approved,K. Nguyen
+141,B021,Product Family,Mining,2025-01-01,-20,Met coal slowdown - customer idling,S. Brooks,2024-12-16,Approved,D. Carter-Lee
+142,B022,Product Family,Mining,2025-01-01,-20,Met coal slowdown - customer idling,R. Alvarez,2024-12-01,Approved,K. Nguyen
+143,B023,Product Family,Mining,2025-01-01,-20,Met coal slowdown - customer idling,S. Brooks,2024-12-12,Approved,D. Carter-Lee
+144,B024,Product Family,Mining,2025-01-01,-20,Met coal slowdown - customer idling,J. Thompson,2024-12-05,Approved,M. Patel
+145,B001,Product Family,Mining,2025-02-01,-20,Met coal slowdown - customer idling,K. Nguyen,2024-12-27,Approved,S. Brooks
+146,B002,Product Family,Mining,2025-02-01,-20,Met coal slowdown - customer idling,J. Thompson,2025-01-22,Approved,M. Patel
+147,B011,Product Family,Mining,2025-02-01,-20,Met coal slowdown - customer idling,R. Alvarez,2025-01-03,Approved,K. Nguyen
+148,B012,Product Family,Mining,2025-02-01,-20,Met coal slowdown - customer idling,J. Thompson,2025-01-16,Approved,M. Patel
+149,B016,Product Family,Mining,2025-02-01,-20,Met coal slowdown - customer idling,R. Alvarez,2025-01-13,Approved,K. Nguyen
+150,B021,Product Family,Mining,2025-02-01,-20,Met coal slowdown - customer idling,S. Brooks,2025-01-21,Approved,D. Carter-Lee
+151,B022,Product Family,Mining,2025-02-01,-20,Met coal slowdown - customer idling,D. Carter-Lee,2025-01-17,Approved,J. Thompson
+152,B023,Product Family,Mining,2025-02-01,-20,Met coal slowdown - customer idling,R. Alvarez,2024-12-19,Approved,K. Nguyen
+153,B024,Product Family,Mining,2025-02-01,-20,Met coal slowdown - customer idling,K. Nguyen,2024-12-19,Approved,S. Brooks
+154,B001,Product Family,Mining,2025-03-01,-20,Met coal slowdown - customer idling,J. Thompson,2025-01-25,Approved,M. Patel
+155,B002,Product Family,Mining,2025-03-01,-20,Met coal slowdown - customer idling,J. Thompson,2025-01-29,Approved,M. Patel
+156,B011,Product Family,Mining,2025-03-01,-20,Met coal slowdown - customer idling,M. Patel,2025-01-23,Approved,R. Alvarez
+157,B012,Product Family,Mining,2025-03-01,-20,Met coal slowdown - customer idling,J. Thompson,2025-01-19,Approved,M. Patel
+158,B016,Product Family,Mining,2025-03-01,-20,Met coal slowdown - customer idling,R. Alvarez,2025-02-01,Approved,K. Nguyen
+159,B021,Product Family,Mining,2025-03-01,-20,Met coal slowdown - customer idling,K. Nguyen,2025-02-18,Approved,S. Brooks
+160,B022,Product Family,Mining,2025-03-01,-20,Met coal slowdown - customer idling,M. Patel,2025-01-26,Approved,R. Alvarez
+161,B023,Product Family,Mining,2025-03-01,-20,Met coal slowdown - customer idling,D. Carter-Lee,2025-01-16,Approved,J. Thompson
+162,B024,Product Family,Mining,2025-03-01,-20,Met coal slowdown - customer idling,K. Nguyen,2025-02-10,Approved,S. Brooks
+163,B001,Product Family,Mining,2025-04-01,-20,Met coal slowdown - customer idling,R. Alvarez,2025-03-06,Approved,K. Nguyen
+164,B002,Product Family,Mining,2025-04-01,-20,Met coal slowdown - customer idling,R. Alvarez,2025-03-10,Approved,K. Nguyen
+165,B011,Product Family,Mining,2025-04-01,-20,Met coal slowdown - customer idling,D. Carter-Lee,2025-03-09,Approved,J. Thompson
+166,B012,Product Family,Mining,2025-04-01,-20,Met coal slowdown - customer idling,J. Thompson,2025-02-25,Approved,M. Patel
+167,B016,Product Family,Mining,2025-04-01,-20,Met coal slowdown - customer idling,K. Nguyen,2025-03-09,Approved,S. Brooks
+168,B021,Product Family,Mining,2025-04-01,-20,Met coal slowdown - customer idling,K. Nguyen,2025-02-18,Approved,S. Brooks
+169,B022,Product Family,Mining,2025-04-01,-20,Met coal slowdown - customer idling,D. Carter-Lee,2025-02-23,Approved,J. Thompson
+170,B023,Product Family,Mining,2025-04-01,-20,Met coal slowdown - customer idling,K. Nguyen,2025-03-22,Approved,S. Brooks
+171,B024,Product Family,Mining,2025-04-01,-20,Met coal slowdown - customer idling,K. Nguyen,2025-02-22,Approved,S. Brooks
+172,B001,Product Family,Mining,2025-05-01,-20,Met coal slowdown - customer idling,D. Carter-Lee,2025-03-25,Approved,J. Thompson
+173,B002,Product Family,Mining,2025-05-01,-20,Met coal slowdown - customer idling,D. Carter-Lee,2025-04-03,Approved,J. Thompson
+174,B011,Product Family,Mining,2025-05-01,-20,Met coal slowdown - customer idling,J. Thompson,2025-04-04,Approved,M. Patel
+175,B012,Product Family,Mining,2025-05-01,-20,Met coal slowdown - customer idling,M. Patel,2025-03-23,Approved,R. Alvarez
+176,B016,Product Family,Mining,2025-05-01,-20,Met coal slowdown - customer idling,S. Brooks,2025-04-07,Approved,D. Carter-Lee
+177,B021,Product Family,Mining,2025-05-01,-20,Met coal slowdown - customer idling,R. Alvarez,2025-04-16,Approved,K. Nguyen
+178,B022,Product Family,Mining,2025-05-01,-20,Met coal slowdown - customer idling,J. Thompson,2025-04-11,Approved,M. Patel
+179,B023,Product Family,Mining,2025-05-01,-20,Met coal slowdown - customer idling,M. Patel,2025-04-12,Approved,R. Alvarez
+180,B024,Product Family,Mining,2025-05-01,-20,Met coal slowdown - customer idling,D. Carter-Lee,2025-03-29,Approved,J. Thompson
+181,B001,Product Family,Mining,2025-06-01,-20,Met coal slowdown - customer idling,K. Nguyen,2025-05-16,Approved,S. Brooks
+182,B002,Product Family,Mining,2025-06-01,-20,Met coal slowdown - customer idling,D. Carter-Lee,2025-04-30,Approved,J. Thompson
+183,B011,Product Family,Mining,2025-06-01,-20,Met coal slowdown - customer idling,K. Nguyen,2025-05-06,Approved,S. Brooks
+184,B012,Product Family,Mining,2025-06-01,-20,Met coal slowdown - customer idling,K. Nguyen,2025-04-23,Approved,S. Brooks
+185,B016,Product Family,Mining,2025-06-01,-20,Met coal slowdown - customer idling,S. Brooks,2025-05-06,Approved,D. Carter-Lee
+186,B021,Product Family,Mining,2025-06-01,-20,Met coal slowdown - customer idling,S. Brooks,2025-04-20,Approved,D. Carter-Lee
+187,B022,Product Family,Mining,2025-06-01,-20,Met coal slowdown - customer idling,M. Patel,2025-04-21,Approved,R. Alvarez
+188,B023,Product Family,Mining,2025-06-01,-20,Met coal slowdown - customer idling,K. Nguyen,2025-05-16,Approved,S. Brooks
+189,B024,Product Family,Mining,2025-06-01,-20,Met coal slowdown - customer idling,D. Carter-Lee,2025-04-28,Approved,J. Thompson
+190,B001,Product Family,Mining,2025-07-01,-20,Met coal slowdown - customer idling,R. Alvarez,2025-06-14,Approved,K. Nguyen
+191,B002,Product Family,Mining,2025-07-01,-20,Met coal slowdown - customer idling,D. Carter-Lee,2025-05-24,Approved,J. Thompson
+192,B011,Product Family,Mining,2025-07-01,-20,Met coal slowdown - customer idling,J. Thompson,2025-05-30,Approved,M. Patel
+193,B012,Product Family,Mining,2025-07-01,-20,Met coal slowdown - customer idling,J. Thompson,2025-06-11,Approved,M. Patel
+194,B016,Product Family,Mining,2025-07-01,-20,Met coal slowdown - customer idling,K. Nguyen,2025-06-13,Approved,S. Brooks
+195,B021,Product Family,Mining,2025-07-01,-20,Met coal slowdown - customer idling,K. Nguyen,2025-06-06,Approved,S. Brooks
+196,B022,Product Family,Mining,2025-07-01,-20,Met coal slowdown - customer idling,K. Nguyen,2025-05-24,Approved,S. Brooks
+197,B023,Product Family,Mining,2025-07-01,-20,Met coal slowdown - customer idling,J. Thompson,2025-05-25,Approved,M. Patel
+198,B024,Product Family,Mining,2025-07-01,-20,Met coal slowdown - customer idling,M. Patel,2025-06-20,Approved,R. Alvarez
+199,B001,Product Family,Mining,2025-08-01,-20,Met coal slowdown - customer idling,R. Alvarez,2025-07-12,Approved,K. Nguyen
+200,B002,Product Family,Mining,2025-08-01,-20,Met coal slowdown - customer idling,M. Patel,2025-07-08,Approved,R. Alvarez
+201,B011,Product Family,Mining,2025-08-01,-20,Met coal slowdown - customer idling,D. Carter-Lee,2025-07-02,Approved,J. Thompson
+202,B012,Product Family,Mining,2025-08-01,-20,Met coal slowdown - customer idling,S. Brooks,2025-07-17,Approved,D. Carter-Lee
+203,B016,Product Family,Mining,2025-08-01,-20,Met coal slowdown - customer idling,J. Thompson,2025-07-11,Approved,M. Patel
+204,B021,Product Family,Mining,2025-08-01,-20,Met coal slowdown - customer idling,S. Brooks,2025-06-22,Approved,D. Carter-Lee
+205,B022,Product Family,Mining,2025-08-01,-20,Met coal slowdown - customer idling,J. Thompson,2025-07-06,Approved,M. Patel
+206,B023,Product Family,Mining,2025-08-01,-20,Met coal slowdown - customer idling,R. Alvarez,2025-06-26,Approved,K. Nguyen
+207,B024,Product Family,Mining,2025-08-01,-20,Met coal slowdown - customer idling,M. Patel,2025-07-06,Approved,R. Alvarez
+208,B001,Product Family,Mining,2025-09-01,-20,Met coal slowdown - customer idling,D. Carter-Lee,2025-08-06,Approved,J. Thompson
+209,B002,Product Family,Mining,2025-09-01,-20,Met coal slowdown - customer idling,S. Brooks,2025-08-01,Approved,D. Carter-Lee
+210,B011,Product Family,Mining,2025-09-01,-20,Met coal slowdown - customer idling,K. Nguyen,2025-08-13,Approved,S. Brooks
+211,B012,Product Family,Mining,2025-09-01,-20,Met coal slowdown - customer idling,D. Carter-Lee,2025-08-14,Approved,J. Thompson
+212,B016,Product Family,Mining,2025-09-01,-20,Met coal slowdown - customer idling,D. Carter-Lee,2025-07-19,Approved,J. Thompson
+213,B021,Product Family,Mining,2025-09-01,-20,Met coal slowdown - customer idling,K. Nguyen,2025-07-23,Approved,S. Brooks
+214,B022,Product Family,Mining,2025-09-01,-20,Met coal slowdown - customer idling,S. Brooks,2025-07-28,Approved,D. Carter-Lee
+215,B023,Product Family,Mining,2025-09-01,-20,Met coal slowdown - customer idling,J. Thompson,2025-08-18,Approved,M. Patel
+216,B024,Product Family,Mining,2025-09-01,-20,Met coal slowdown - customer idling,J. Thompson,2025-08-21,Approved,M. Patel
+217,B001,Product Family,Mining,2025-10-01,-20,Met coal slowdown - customer idling,D. Carter-Lee,2025-09-15,Approved,J. Thompson
+218,B002,Product Family,Mining,2025-10-01,-20,Met coal slowdown - customer idling,J. Thompson,2025-08-20,Approved,M. Patel
+219,B011,Product Family,Mining,2025-10-01,-20,Met coal slowdown - customer idling,M. Patel,2025-08-24,Approved,R. Alvarez
+220,B012,Product Family,Mining,2025-10-01,-20,Met coal slowdown - customer idling,D. Carter-Lee,2025-09-03,Approved,J. Thompson
+221,B016,Product Family,Mining,2025-10-01,-20,Met coal slowdown - customer idling,D. Carter-Lee,2025-08-19,Approved,J. Thompson
+222,B021,Product Family,Mining,2025-10-01,-20,Met coal slowdown - customer idling,J. Thompson,2025-09-16,Approved,M. Patel
+223,B022,Product Family,Mining,2025-10-01,-20,Met coal slowdown - customer idling,R. Alvarez,2025-09-02,Approved,K. Nguyen
+224,B023,Product Family,Mining,2025-10-01,-20,Met coal slowdown - customer idling,S. Brooks,2025-09-15,Approved,D. Carter-Lee
+225,B024,Product Family,Mining,2025-10-01,-20,Met coal slowdown - customer idling,M. Patel,2025-09-11,Approved,R. Alvarez
+226,B001,Product Family,Mining,2025-11-01,-20,Met coal slowdown - customer idling,M. Patel,2025-09-20,Approved,R. Alvarez
+227,B002,Product Family,Mining,2025-11-01,-20,Met coal slowdown - customer idling,R. Alvarez,2025-09-22,Approved,K. Nguyen
+228,B011,Product Family,Mining,2025-11-01,-20,Met coal slowdown - customer idling,J. Thompson,2025-10-19,Approved,M. Patel
+229,B012,Product Family,Mining,2025-11-01,-20,Met coal slowdown - customer idling,S. Brooks,2025-10-14,Approved,D. Carter-Lee
+230,B016,Product Family,Mining,2025-11-01,-20,Met coal slowdown - customer idling,J. Thompson,2025-10-02,Approved,M. Patel
+231,B021,Product Family,Mining,2025-11-01,-20,Met coal slowdown - customer idling,J. Thompson,2025-10-20,Approved,M. Patel
+232,B022,Product Family,Mining,2025-11-01,-20,Met coal slowdown - customer idling,R. Alvarez,2025-10-03,Approved,K. Nguyen
+233,B023,Product Family,Mining,2025-11-01,-20,Met coal slowdown - customer idling,K. Nguyen,2025-10-02,Approved,S. Brooks
+234,B024,Product Family,Mining,2025-11-01,-20,Met coal slowdown - customer idling,J. Thompson,2025-10-12,Approved,M. Patel
+235,B001,Product Family,Mining,2025-12-01,-20,Met coal slowdown - customer idling,R. Alvarez,2025-11-11,Approved,K. Nguyen
+236,B002,Product Family,Mining,2025-12-01,-20,Met coal slowdown - customer idling,K. Nguyen,2025-11-13,Approved,S. Brooks
+237,B011,Product Family,Mining,2025-12-01,-20,Met coal slowdown - customer idling,K. Nguyen,2025-10-20,Approved,S. Brooks
+238,B012,Product Family,Mining,2025-12-01,-20,Met coal slowdown - customer idling,K. Nguyen,2025-11-08,Approved,S. Brooks
+239,B016,Product Family,Mining,2025-12-01,-20,Met coal slowdown - customer idling,R. Alvarez,2025-11-01,Approved,K. Nguyen
+240,B021,Product Family,Mining,2025-12-01,-20,Met coal slowdown - customer idling,S. Brooks,2025-11-11,Approved,D. Carter-Lee
+241,B022,Product Family,Mining,2025-12-01,-20,Met coal slowdown - customer idling,J. Thompson,2025-10-28,Approved,M. Patel
+242,B023,Product Family,Mining,2025-12-01,-20,Met coal slowdown - customer idling,K. Nguyen,2025-11-18,Approved,S. Brooks
+243,B024,Product Family,Mining,2025-12-01,-20,Met coal slowdown - customer idling,K. Nguyen,2025-11-19,Approved,S. Brooks
+244,B001,Part Category,Undercarriage,2025-02-01,25,Pre-buy ahead of undercarriage allocation,K. Nguyen,2024-12-27,Approved,S. Brooks
+245,B002,Part Category,Undercarriage,2025-02-01,25,Pre-buy ahead of undercarriage allocation,J. Thompson,2024-12-28,Approved,M. Patel
+246,B003,Part Category,Undercarriage,2025-02-01,25,Pre-buy ahead of undercarriage allocation,J. Thompson,2025-01-13,Approved,M. Patel
+247,B004,Part Category,Undercarriage,2025-02-01,25,Pre-buy ahead of undercarriage allocation,S. Brooks,2025-01-10,Approved,D. Carter-Lee
+248,B005,Part Category,Undercarriage,2025-02-01,25,Pre-buy ahead of undercarriage allocation,D. Carter-Lee,2024-12-20,Approved,J. Thompson
+249,B006,Part Category,Undercarriage,2025-02-01,25,Pre-buy ahead of undercarriage allocation,D. Carter-Lee,2025-01-19,Approved,J. Thompson
+250,B007,Part Category,Undercarriage,2025-02-01,25,Pre-buy ahead of undercarriage allocation,M. Patel,2025-01-16,Approved,R. Alvarez
+251,B008,Part Category,Undercarriage,2025-02-01,25,Pre-buy ahead of undercarriage allocation,K. Nguyen,2025-01-07,Approved,S. Brooks
+252,B009,Part Category,Undercarriage,2025-02-01,25,Pre-buy ahead of undercarriage allocation,S. Brooks,2025-01-13,Approved,D. Carter-Lee
+253,B010,Part Category,Undercarriage,2025-02-01,25,Pre-buy ahead of undercarriage allocation,M. Patel,2024-12-31,Approved,R. Alvarez
+254,B011,Part Category,Undercarriage,2025-02-01,25,Pre-buy ahead of undercarriage allocation,K. Nguyen,2024-12-29,Approved,S. Brooks
+255,B012,Part Category,Undercarriage,2025-02-01,25,Pre-buy ahead of undercarriage allocation,M. Patel,2025-01-04,Approved,R. Alvarez
+256,B013,Part Category,Undercarriage,2025-02-01,25,Pre-buy ahead of undercarriage allocation,D. Carter-Lee,2025-01-01,Approved,J. Thompson
+257,B014,Part Category,Undercarriage,2025-02-01,25,Pre-buy ahead of undercarriage allocation,D. Carter-Lee,2025-01-07,Approved,J. Thompson
+258,B015,Part Category,Undercarriage,2025-02-01,25,Pre-buy ahead of undercarriage allocation,J. Thompson,2024-12-27,Approved,M. Patel
+259,B016,Part Category,Undercarriage,2025-02-01,25,Pre-buy ahead of undercarriage allocation,R. Alvarez,2025-01-21,Approved,K. Nguyen
+260,B017,Part Category,Undercarriage,2025-02-01,25,Pre-buy ahead of undercarriage allocation,J. Thompson,2025-01-12,Approved,M. Patel
+261,B018,Part Category,Undercarriage,2025-02-01,25,Pre-buy ahead of undercarriage allocation,M. Patel,2024-12-30,Approved,R. Alvarez
+262,B019,Part Category,Undercarriage,2025-02-01,25,Pre-buy ahead of undercarriage allocation,K. Nguyen,2025-01-11,Approved,S. Brooks
+263,B020,Part Category,Undercarriage,2025-02-01,25,Pre-buy ahead of undercarriage allocation,J. Thompson,2025-01-20,Approved,M. Patel
+264,B021,Part Category,Undercarriage,2025-02-01,25,Pre-buy ahead of undercarriage allocation,D. Carter-Lee,2025-01-10,Approved,J. Thompson
+265,B022,Part Category,Undercarriage,2025-02-01,25,Pre-buy ahead of undercarriage allocation,J. Thompson,2024-12-29,Approved,M. Patel
+266,B023,Part Category,Undercarriage,2025-02-01,25,Pre-buy ahead of undercarriage allocation,D. Carter-Lee,2025-01-18,Approved,J. Thompson
+267,B024,Part Category,Undercarriage,2025-02-01,25,Pre-buy ahead of undercarriage allocation,D. Carter-Lee,2024-12-28,Approved,J. Thompson
+268,B025,Part Category,Undercarriage,2025-02-01,25,Pre-buy ahead of undercarriage allocation,M. Patel,2024-12-26,Approved,R. Alvarez
+269,B026,Part Category,Undercarriage,2025-02-01,25,Pre-buy ahead of undercarriage allocation,R. Alvarez,2024-12-31,Approved,K. Nguyen
+270,B027,Part Category,Undercarriage,2025-02-01,25,Pre-buy ahead of undercarriage allocation,J. Thompson,2025-01-14,Approved,M. Patel
+271,B028,Part Category,Undercarriage,2025-02-01,25,Pre-buy ahead of undercarriage allocation,S. Brooks,2024-12-25,Approved,D. Carter-Lee
+272,B004,Product Category,Pipelayers,2026-03-01,60,Pipeline project - large customer job,J. Thompson,2026-02-12,Approved,M. Patel
+273,B004,Product Category,Pipelayers,2026-04-01,60,Pipeline project - large customer job,K. Nguyen,2026-02-19,Approved,S. Brooks
+274,B004,Product Category,Pipelayers,2026-05-01,60,Pipeline project - large customer job,S. Brooks,2026-03-28,Approved,D. Carter-Lee
+275,B004,Product Category,Pipelayers,2026-06-01,60,Pipeline project - large customer job,R. Alvarez,2026-05-21,Approved,K. Nguyen
+276,B004,Product Category,Pipelayers,2026-07-01,60,Pipeline project - large customer job,S. Brooks,2026-05-25,Approved,D. Carter-Lee
+277,B004,Product Category,Pipelayers,2026-08-01,60,Pipeline project - large customer job,R. Alvarez,2026-07-05,Approved,K. Nguyen
+278,B007,Part Category,Filters,2026-06-01,-10,Branch manager input,K. Nguyen,2026-05-14,Approved,S. Brooks
+279,B021,Part Category,Tires,2026-07-01,-15,Branch manager input,M. Patel,2026-05-30,Approved,R. Alvarez
+280,B003,Part Category,Tires,2026-09-01,10,Branch manager input,R. Alvarez,2026-08-04,Approved,K. Nguyen
+281,B011,Part Category,Tires,2026-06-01,20,Branch manager input,M. Patel,2026-05-15,Approved,R. Alvarez
+282,B012,Part Category,Ground Engaging Tools,2026-07-01,-10,Branch manager input,J. Thompson,2026-06-18,Approved,M. Patel
+283,B002,Part Category,Ground Engaging Tools,2026-03-01,20,Branch manager input,K. Nguyen,2026-02-04,Pending,
+284,B026,Part Category,Ground Engaging Tools,2026-02-01,20,Branch manager input,M. Patel,2026-01-01,Rejected,
+285,B028,Part Category,Ground Engaging Tools,2026-03-01,-15,Branch manager input,S. Brooks,2026-02-02,Approved,D. Carter-Lee
+286,B006,Part Category,Filters,2026-05-01,20,Branch manager input,J. Thompson,2026-04-13,Pending,
+287,B024,Part Category,Tires,2026-11-01,10,Branch manager input,R. Alvarez,2026-09-21,Pending,
+288,B025,Part Category,Filters,2026-03-01,10,Branch manager input,D. Carter-Lee,2026-02-15,Pending,
+289,B011,Part Category,Filters,2026-10-01,10,Branch manager input,J. Thompson,2026-09-13,Approved,M. Patel
+290,B021,Part Category,Filters,2026-11-01,-10,Branch manager input,S. Brooks,2026-09-25,Approved,D. Carter-Lee
+291,B027,Part Category,Hydraulics,2026-05-01,-10,Branch manager input,R. Alvarez,2026-04-21,Pending,
+292,B027,Part Category,Tires,2026-02-01,-15,Branch manager input,M. Patel,2025-12-29,Rejected,
+293,B012,Part Category,Hydraulics,2026-05-01,20,Branch manager input,M. Patel,2026-04-19,Approved,R. Alvarez
+294,B021,Part Category,Ground Engaging Tools,2026-09-01,-15,Branch manager input,S. Brooks,2026-07-20,Pending,
+295,B027,Part Category,Ground Engaging Tools,2026-04-01,-10,Branch manager input,M. Patel,2026-02-28,Rejected,
+296,B027,Part Category,Tires,2026-08-01,20,Branch manager input,D. Carter-Lee,2026-06-24,Approved,J. Thompson
+297,B012,Part Category,Ground Engaging Tools,2026-08-01,20,Branch manager input,J. Thompson,2026-07-22,Pending,
+298,B007,Part Category,Tires,2026-07-01,10,Branch manager input,S. Brooks,2026-06-05,Approved,D. Carter-Lee
+299,B011,Part Category,Hydraulics,2026-10-01,10,Branch manager input,R. Alvarez,2026-09-02,Approved,K. Nguyen
+300,B018,Part Category,Hydraulics,2026-12-01,20,Branch manager input,R. Alvarez,2026-11-17,Pending,
+301,B008,Part Category,Tires,2026-08-01,10,Branch manager input,J. Thompson,2026-07-05,Pending,
+302,B025,Part Category,Tires,2026-05-01,-15,Branch manager input,S. Brooks,2026-03-31,Pending,

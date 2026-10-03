@@ -1,0 +1,31 @@
+exception_id,supplier_id,supplier_name,issue,impacted_category,start_date,expected_resolution,impact,status,owner
+SX0001,S006,Donaldson Company,On-time delivery 75% - late shipments on Filters parts,Filters,2023-01-01,2023-04-01,Medium,Closed,M. Patel
+SX0002,S022,Eaton Hydraulics,On-time delivery 67% - late shipments on Hydraulics parts,Hydraulics,2023-01-01,2023-04-01,Medium,Closed,M. Patel
+SX0003,S010,ITR America,On-time delivery 75% - late shipments on Undercarriage parts,Undercarriage,2023-01-01,2023-04-01,Medium,Closed,M. Patel
+SX0004,S026,Hensley Industries,On-time delivery 71% - late shipments on Ground Engaging Tools parts,Ground Engaging Tools,2023-01-01,2023-04-01,Medium,Closed,R. Alvarez
+SX0005,S034,Chesapeake Bay Electrical,On-time delivery 74% - late shipments on Electrical parts,Electrical,2023-04-01,2023-07-01,Medium,Closed,K. Nguyen
+SX0006,S009,Berco of America,On-time delivery 56% - late shipments on Undercarriage parts,Undercarriage,2023-04-01,2026-10-01,High,Open,M. Patel
+SX0007,S011,ESCO Group,On-time delivery 74% - late shipments on Ground Engaging Tools parts,Ground Engaging Tools,2023-07-01,2024-01-01,Medium,Closed,M. Patel
+SX0008,S026,Hensley Industries,On-time delivery 72% - late shipments on Ground Engaging Tools parts,Ground Engaging Tools,2023-07-01,2025-10-01,Medium,Closed,R. Alvarez
+SX0009,S010,ITR America,On-time delivery 55% - late shipments on Undercarriage parts,Undercarriage,2023-07-01,2024-01-01,High,Closed,M. Patel
+SX0010,S034,Chesapeake Bay Electrical,On-time delivery 65% - late shipments on Electrical parts,Electrical,2024-04-01,2025-01-01,Medium,Closed,J. Thompson
+SX0011,S029,Delco Remy,On-time delivery 67% - late shipments on Electrical parts,Electrical,2024-04-01,2024-07-01,Medium,Closed,K. Nguyen
+SX0012,S010,ITR America,On-time delivery 67% - late shipments on Undercarriage parts,Undercarriage,2024-04-01,2024-07-01,Medium,Closed,D. Carter-Lee
+SX0013,S027,Bridgestone OTR,Allocation on large OTR tires (29.5R25),Tires,2024-06-01,2026-12-31,High,Open,M. Patel
+SX0014,S011,ESCO Group,On-time delivery 73% - late shipments on Ground Engaging Tools parts,Ground Engaging Tools,2024-07-01,2024-10-01,Medium,Closed,J. Thompson
+SX0015,S006,Donaldson Company,On-time delivery 73% - late shipments on Filters parts,Filters,2024-07-01,2025-04-01,Medium,Closed,S. Brooks
+SX0016,S010,ITR America,On-time delivery 22% - late shipments on Undercarriage parts,Undercarriage,2025-01-01,2025-10-01,High,Closed,K. Nguyen
+SX0017,S011,ESCO Group,On-time delivery 73% - late shipments on Ground Engaging Tools parts,Ground Engaging Tools,2025-01-01,2025-04-01,Medium,Closed,J. Thompson
+SX0018,S021,Cummins Filtration,On-time delivery 72% - late shipments on Filters parts,Filters,2025-01-01,2025-04-01,Medium,Closed,S. Brooks
+SX0019,S009,Berco of America,Undercarriage capacity constraint - allocations on track groups,Undercarriage,2025-03-01,2025-09-15,High,Closed,D. Carter-Lee
+SX0020,S010,ITR America,Undercarriage backlog - substitute for Berco allocation,Undercarriage,2025-04-01,2025-09-30,Medium,Closed,R. Alvarez
+SX0021,S015,Interstate Batteries,On-time delivery 71% - late shipments on Electrical parts,Electrical,2025-04-01,2025-07-01,Medium,Closed,M. Patel
+SX0022,S011,ESCO Group,On-time delivery 74% - late shipments on Ground Engaging Tools parts,Ground Engaging Tools,2025-07-01,2026-04-01,Medium,Closed,R. Alvarez
+SX0023,S034,Chesapeake Bay Electrical,On-time delivery 67% - late shipments on Electrical parts,Electrical,2025-07-01,2025-10-01,Medium,Closed,R. Alvarez
+SX0024,S003,Caterpillar Inc. - Parts Distribution Center Atlanta,Hurricane-season surge on generator parts,Electrical,2025-08-15,2025-10-31,Medium,Closed,J. Thompson
+SX0025,S010,ITR America,On-time delivery 73% - late shipments on Undercarriage parts,Undercarriage,2026-01-01,2026-07-01,Medium,Open,S. Brooks
+SX0026,S026,Hensley Industries,On-time delivery 72% - late shipments on Ground Engaging Tools parts,Ground Engaging Tools,2026-01-01,2026-10-01,Medium,Open,S. Brooks
+SX0027,S016,Appalachian Fastener Co.,On-time delivery 75% - late shipments on Hardware parts,Hardware,2026-04-01,2026-07-01,Medium,Open,S. Brooks
+SX0028,S006,Donaldson Company,On-time delivery 71% - late shipments on Filters parts,Filters,2026-04-01,2026-10-01,Medium,Open,J. Thompson
+SX0029,S019,Perkins Engines,Ocean freight delays - UK origin engine components,Engine,2026-05-01,2026-11-30,Medium,Open,M. Patel
+SX0030,S007,Parker Hannifin,On-time delivery 74% - late shipments on Hydraulics parts,Hydraulics,2026-07-01,2026-10-01,Medium,Open,S. Brooks

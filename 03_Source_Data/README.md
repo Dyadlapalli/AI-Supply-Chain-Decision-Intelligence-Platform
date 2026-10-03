@@ -26,6 +26,7 @@ Each data set comes in two versions:
 |---|---|---|
 | master_data/ | Branch, product family, product category, product, equipment, supplier, and part master (CSV + Excel) | Yes |
 | erp_data/ | Sales orders, demand transactions, purchase orders, goods receipts, inventory transactions | Sample only |
+| business_files/ | Planner-owned Excel and SharePoint files: safety stock targets, inventory policy, supplier exceptions, critical parts, forecast overrides | Yes |
 
 ### Rebuilding the data
 
@@ -35,6 +36,9 @@ Full ERP extracts (~100 MB) are not committed. A 1,000-row sample of each file i
 pip install pandas numpy openpyxl
 python 03_Source_Data/generate_master_data.py   # run first - ERP data is built on master data
 python 03_Source_Data/generate_erp_data.py
+python 03_Source_Data/generate_business_files.py   # needs master + ERP data
 ```
+
+Business files are messy at the file level, not just the value level: title blocks, merged cells, subtotal formulas, meaning held in cell colour, free-text supplier names, and an outdated version of the safety stock file still in circulation. Their `dq_issue_log.csv` records the file, sheet and cell of each issue.
 
 Both scripts are deterministic (`--seed`, default 42) and accept `--scale` to change volume.

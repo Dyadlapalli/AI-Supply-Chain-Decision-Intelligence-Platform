@@ -1,0 +1,37 @@
+part_category,criticality,service_level_target,review_cycle_days,min_days_of_supply,max_days_of_supply
+Filters,High,0.97,7,10,45
+Filters,Medium,0.95,7,10,45
+Filters,Low,0.9,7,10,45
+Fluids,High,0.97,7,10,45
+Fluids,Medium,0.95,7,10,45
+Fluids,Low,0.9,7,10,45
+Hardware,High,0.97,7,10,45
+Hardware,Medium,0.95,7,10,45
+Hardware,Low,0.9,7,10,45
+Ground Engaging Tools,High,0.97,7,10,45
+Ground Engaging Tools,Medium,0.95,7,10,45
+Ground Engaging Tools,Low,0.9,7,10,45
+Undercarriage,High,0.94,30,0,90
+Undercarriage,Medium,0.9,30,0,90
+Undercarriage,Low,0.85,30,0,90
+Hydraulics,High,0.97,14,5,60
+Hydraulics,Medium,0.93,14,5,60
+Hydraulics,Low,0.88,14,5,60
+Engine,High,0.97,14,5,60
+Engine,Medium,0.93,14,5,60
+Engine,Low,0.88,14,5,60
+Electrical,High,0.97,14,5,60
+Electrical,Medium,0.93,14,5,60
+Electrical,Low,0.88,14,5,60
+Cooling,High,0.97,14,5,60
+Cooling,Medium,0.93,14,5,60
+Cooling,Low,0.88,14,5,60
+Power Train,High,0.94,30,0,90
+Power Train,Medium,0.9,30,0,90
+Power Train,Low,0.85,30,0,90
+Cab,High,0.97,14,5,60
+Cab,Medium,0.93,14,5,60
+Cab,Low,0.88,14,5,60
+Tires,High,0.94,30,0,90
+Tires,Medium,0.9,30,0,90
+Tires,Low,0.85,30,0,90

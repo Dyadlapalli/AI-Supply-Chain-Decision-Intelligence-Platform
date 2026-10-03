@@ -1,0 +1,107 @@
+part_id,part_number,part_description,equipment_model,scope,priority,reason,added_by,added_date
+PT02062,113-9502,CARRIER ROLLER,CAT 7495,Southwest,P1,Down-machine risk at mine sites - 24hr availability required,K. Nguyen,2024-06-25
+PT00016,126-8129,TRACK SHOE,CAT 980,ALL,P1,Repeated stockouts (3 units short since 2023),J. Thompson,2024-08-20
+PT02114,143-7798,CARRIER ROLLER,CAT 6020B,Southwest,P1,Down-machine risk at mine sites - 24hr availability required,R. Alvarez,2024-11-26
+PT00017,186-1200,TRACK SHOE,CAT C7.1,ALL,P1,Standby power for hospitals / data centers - emergency coverage,M. Patel,2025-03-16
+PT00213,186-4111,IDLER GROUP,CAT 6040,Southwest,P1,Down-machine risk at mine sites - 24hr availability required,J. Thompson,2024-09-04
+PT02038,196-1917,CARRIER ROLLER,CAT 289,ALL,P1,Repeated stockouts (3 units short since 2023),M. Patel,2025-04-17
+PT00125,1E-3904,TRACK ROLLER,CAT R2900,Southwest,P1,Down-machine risk at mine sites - 24hr availability required,K. Nguyen,2026-03-20
+PT00349,1E-7009,TRACK LINK ASSEMBLY,CAT A14B Auger,ALL,P1,Repeated stockouts (8 units short since 2023),R. Alvarez,2024-06-26
+PT00005,1R-0716,ENGINE OIL FILTER,CAT 313,ALL,P1,Repeated stockouts (7 units short since 2023),K. Nguyen,2025-03-17
+PT00003,1R-0739,ENGINE OIL FILTER,CAT R1300G,Southwest,P1,Down-machine risk at mine sites - 24hr availability required,J. Thompson,2026-03-02
+PT00001,1R-0750,FUEL FILTER,CAT 725,ALL,P1,Repeated stockouts (9 units short since 2023),S. Brooks,2025-12-28
+PT00010,1R-0777,HYDRAULIC FILTER,CAT CS66B,ALL,P1,Repeated stockouts (4 units short since 2023),S. Brooks,2025-07-12
+PT00004,1R-1808,ENGINE OIL FILTER,CAT 289,ALL,P1,Repeated stockouts (24 units short since 2023),M. Patel,2024-12-10
+PT00243,203-9721,IDLER GROUP,CAT AD45,Southwest,P1,Down-machine risk at mine sites - 24hr availability required,S. Brooks,2025-06-29
+PT00114,224-7835,TRACK ROLLER,CAT 6040,Southwest,P1,Down-machine risk at mine sites - 24hr availability required,D. Carter-Lee,2024-01-18
+PT00275,266-6447,SPROCKET SEGMENT,CAT 299,ALL,P1,Repeated stockouts (6 units short since 2023),S. Brooks,2024-02-10
+PT00160,295-1661,TRACK ROLLER,CAT 794 AC,Southwest,P1,Down-machine risk at mine sites - 24hr availability required,S. Brooks,2024-01-24
+PT00068,296-1207,TRACK SHOE,CAT 6020B,Southwest,P1,Down-machine risk at mine sites - 24hr availability required,D. Carter-Lee,2024-04-12
+PT02086,2N-8831,CARRIER ROLLER,CAT C4.4,ALL,P1,Standby power for hospitals / data centers - emergency coverage,K. Nguyen,2024-01-27
+PT00115,2T-4347,TRACK ROLLER,CAT C18,ALL,P1,Standby power for hospitals / data centers - emergency coverage,M. Patel,2025-12-17
+PT00006,326-1644,FUEL WATER SEPARATOR,CAT A14B Auger,ALL,P1,Repeated stockouts (10 units short since 2023),R. Alvarez,2024-04-10
+PT00280,342-9412,SPROCKET SEGMENT,CAT 6015B,Southwest,P1,Down-machine risk at mine sites - 24hr availability required,R. Alvarez,2024-10-18
+PT00145,353-4427,TRACK ROLLER,CAT C4.4,ALL,P1,Standby power for hospitals / data centers - emergency coverage,R. Alvarez,2025-10-27
+PT00344,373-6759,TRACK LINK ASSEMBLY,CAT 299,ALL,P1,Repeated stockouts (3 units short since 2023),K. Nguyen,2025-10-05
+PT00175,394-9821,TRACK ROLLER,CAT 794 AC,Southwest,P1,Down-machine risk at mine sites - 24hr availability required,D. Carter-Lee,2025-05-15
+PT00137,3E-8073,TRACK ROLLER,CAT PL61,ALL,P1,Repeated stockouts (3 units short since 2023),R. Alvarez,2025-08-01
+PT00278,3H-4957,SPROCKET SEGMENT,CAT G3520,ALL,P1,Standby power for hospitals / data centers - emergency coverage,S. Brooks,2024-07-16
+PT00025,3H-5164,TRACK SHOE,CAT AD22,Southwest,P1,Down-machine risk at mine sites - 24hr availability required,S. Brooks,2025-10-31
+PT00132,3M-0943,TRACK ROLLER,CAT MD6250,Southwest,P1,Down-machine risk at mine sites - 24hr availability required,R. Alvarez,2024-08-26
+PT02167,3S-1686,RECOIL SPRING,CAT C18,ALL,P1,Standby power for hospitals / data centers - emergency coverage,K. Nguyen,2024-09-26
+PT00350,4C-6099,TRACK LINK ASSEMBLY,CAT PM310,ALL,P1,Repeated stockouts (4 units short since 2023),J. Thompson,2024-08-29
+PT00092,506-6078,TRACK ROLLER,CAT AD60,Southwest,P1,Down-machine risk at mine sites - 24hr availability required,M. Patel,2025-10-11
+PT00304,5A-2104,SPROCKET SEGMENT,CAT 303 CR,ALL,P1,Repeated stockouts (7 units short since 2023),K. Nguyen,2025-05-04
+PT00176,5M-0401,TRACK ROLLER,CAT C18 ACERT,ALL,P1,Standby power for hospitals / data centers - emergency coverage,M. Patel,2025-07-12
+PT03325,5T-5761,ECM CONTROLLER,CAT 6040,Southwest,P1,Down-machine risk at mine sites - 24hr availability required,S. Brooks,2024-05-29
+PT02579,6L-5508,SWING MOTOR,CAT 793,Southwest,P1,Down-machine risk at mine sites - 24hr availability required,R. Alvarez,2024-08-14
+PT00061,6Y-4563,TRACK SHOE,CAT CS56B,ALL,P1,Repeated stockouts (4 units short since 2023),J. Thompson,2024-06-26
+PT00146,7R-6010,TRACK ROLLER,CAT 793,Southwest,P1,Down-machine risk at mine sites - 24hr availability required,S. Brooks,2025-02-07
+PT02102,7S-3797,CARRIER ROLLER,CAT R2900,Southwest,P1,Down-machine risk at mine sites - 24hr availability required,R. Alvarez,2024-09-17
+PT00308,7Y-3066,TRACK LINK ASSEMBLY,CAT C32 Marine,ALL,P1,Repeated stockouts (7 units short since 2023),S. Brooks,2024-02-16
+PT00591,8F-9785,HYDRAULIC HOSE ASSEMBLY,CAT 797F,Southwest,P1,Down-machine risk at mine sites - 24hr availability required,R. Alvarez,2024-05-06
+PT00065,8M-6687,TRACK SHOE,CAT 795,Southwest,P1,Down-machine risk at mine sites - 24hr availability required,S. Brooks,2025-09-19
+PT00336,8S-8471,TRACK LINK ASSEMBLY,CAT R1700,Southwest,P1,Down-machine risk at mine sites - 24hr availability required,J. Thompson,2024-03-31
+PT01418,8U-5578,STARTER MOTOR,CAT 794 AC,Southwest,P1,Down-machine risk at mine sites - 24hr availability required,J. Thompson,2025-08-13
+PT00050,9B-7077,TRACK SHOE,CAT 521B,ALL,P1,Repeated stockouts (4 units short since 2023),R. Alvarez,2025-02-17
+PT00221,9F-3300,IDLER GROUP,CAT 795,Southwest,P1,Down-machine risk at mine sites - 24hr availability required,M. Patel,2025-09-01
+PT00270,9I-4590,SPROCKET SEGMENT,CAT 416,ALL,P1,Repeated stockouts (3 units short since 2023),K. Nguyen,2026-01-06
+PT00269,9R-9887,SPROCKET SEGMENT,CAT RM400,ALL,P1,Repeated stockouts (5 units short since 2023),R. Alvarez,2025-02-24
+PT02135,9V-4548,RECOIL SPRING,CAT 770,ALL,P1,Repeated stockouts (5 units short since 2023),S. Brooks,2024-03-15
+PT00053,9Y-4622,TRACK SHOE,CAT C4.4,ALL,P1,Standby power for hospitals / data centers - emergency coverage,K. Nguyen,2024-10-10
+PT00207,106-4895,IDLER GROUP,CAT D5,ALL,P2,Repeated stockouts (1 units short since 2023),K. Nguyen,2025-11-10
+PT00024,113-7273,TRACK SHOE,CAT CS66B,ALL,P2,Repeated stockouts (1 units short since 2023),D. Carter-Lee,2025-08-15
+PT00754,121-0223,HYDRAULIC PUMP,CAT TL1055,ALL,P2,Repeated stockouts (1 units short since 2023),J. Thompson,2024-09-18
+PT00073,122-2117,TRACK SHOE,CAT TL943,ALL,P2,Repeated stockouts (2 units short since 2023),J. Thompson,2025-06-03
+PT00695,125-1414,HYDRAULIC PUMP,CAT 521B,ALL,P2,Repeated stockouts (1 units short since 2023),R. Alvarez,2024-10-25
+PT00131,143-5378,TRACK ROLLER,CAT TL1055,ALL,P2,Repeated stockouts (1 units short since 2023),S. Brooks,2024-04-24
+PT00182,167-0121,TRACK ROLLER,CAT 305 CR,ALL,P2,Repeated stockouts (2 units short since 2023),K. Nguyen,2025-01-30
+PT02572,186-7379,SWING MOTOR,CAT 545D,ALL,P2,Repeated stockouts (1 units short since 2023),D. Carter-Lee,2025-06-06
+PT02106,196-6747,CARRIER ROLLER,CAT CW34,ALL,P2,Repeated stockouts (1 units short since 2023),R. Alvarez,2024-05-19
+PT01127,197-9117,TURBOCHARGER,CAT 521B,ALL,P2,Repeated stockouts (1 units short since 2023),R. Alvarez,2025-02-02
+PT02526,1E-9945,CONTROL VALVE,CAT 525D,ALL,P2,Repeated stockouts (1 units short since 2023),R. Alvarez,2026-02-01
+PT02169,1G-5035,RECOIL SPRING,CAT 775,ALL,P2,Repeated stockouts (1 units short since 2023),R. Alvarez,2025-08-17
+PT03108,1P-2013,PISTON KIT,CAT 545D,ALL,P2,Repeated stockouts (1 units short since 2023),K. Nguyen,2025-08-17
+PT00002,1R-0751,FUEL FILTER SECONDARY,CAT PL72,ALL,P2,Repeated stockouts (2 units short since 2023),M. Patel,2024-02-12
+PT02538,1U-3891,CONTROL VALVE,CAT TH255C,ALL,P2,Repeated stockouts (1 units short since 2023),D. Carter-Lee,2024-04-06
+PT00026,1Y-7707,TRACK SHOE,CAT 320,ALL,P2,Repeated stockouts (2 units short since 2023),K. Nguyen,2024-07-25
+PT00755,200-0324,HYDRAULIC PUMP,CAT TL1055,ALL,P2,Repeated stockouts (1 units short since 2023),S. Brooks,2024-05-26
+PT00080,289-9313,TRACK SHOE,CAT AP400,ALL,P2,Repeated stockouts (1 units short since 2023),K. Nguyen,2025-08-04
+PT00283,2N-3570,SPROCKET SEGMENT,CAT 3512E Marine,ALL,P2,Repeated stockouts (2 units short since 2023),J. Thompson,2025-01-06
+PT00082,300-0682,TRACK SHOE,CAT PM310,ALL,P2,Repeated stockouts (1 units short since 2023),R. Alvarez,2025-11-17
+PT00227,346-4792,IDLER GROUP,CAT 315,ALL,P2,Repeated stockouts (2 units short since 2023),M. Patel,2024-05-01
+PT00224,392-6885,IDLER GROUP,CAT 3512E Well Service,ALL,P2,Repeated stockouts (1 units short since 2023),K. Nguyen,2024-10-12
+PT02067,3H-7669,CARRIER ROLLER,CAT G115B Grapple,ALL,P2,Repeated stockouts (1 units short since 2023),R. Alvarez,2024-02-13
+PT00168,3K-6515,TRACK ROLLER,CAT AP1055,ALL,P2,Repeated stockouts (1 units short since 2023),R. Alvarez,2026-03-13
+PT00260,410-3784,IDLER GROUP,CAT TL1255,ALL,P2,Repeated stockouts (1 units short since 2023),K. Nguyen,2024-10-08
+PT00116,428-1642,TRACK ROLLER,CAT 320,ALL,P2,Repeated stockouts (1 units short since 2023),J. Thompson,2024-04-08
+PT00174,428-6063,TRACK ROLLER,CAT H95,ALL,P2,Repeated stockouts (1 units short since 2023),R. Alvarez,2025-05-07
+PT02040,443-3554,CARRIER ROLLER,CAT 568,ALL,P2,Repeated stockouts (1 units short since 2023),M. Patel,2025-08-05
+PT00209,453-8063,IDLER GROUP,CAT 323,ALL,P2,Repeated stockouts (1 units short since 2023),K. Nguyen,2025-10-27
+PT00200,455-5452,IDLER GROUP,CAT D5,ALL,P2,Repeated stockouts (1 units short since 2023),S. Brooks,2026-02-20
+PT00745,460-2964,HYDRAULIC PUMP,CAT TL1055,ALL,P2,Repeated stockouts (1 units short since 2023),D. Carter-Lee,2025-01-06
+PT00077,479-3887,TRACK SHOE,CAT A14B Auger,ALL,P2,Repeated stockouts (2 units short since 2023),M. Patel,2025-03-29
+PT02155,481-7739,RECOIL SPRING,CAT 535D,ALL,P2,Repeated stockouts (2 units short since 2023),S. Brooks,2024-06-06
+PT03360,4M-2807,ECM CONTROLLER,CAT 906,ALL,P2,Repeated stockouts (1 units short since 2023),S. Brooks,2024-09-20
+PT02476,4N-9844,CONTROL VALVE,CAT 440,ALL,P2,Repeated stockouts (1 units short since 2023),J. Thompson,2025-02-25
+PT00953,504-5079,WATER PUMP,CAT 301.7,ALL,P2,Repeated stockouts (1 units short since 2023),J. Thompson,2024-11-08
+PT02153,522-8677,RECOIL SPRING,CAT 226,ALL,P2,Repeated stockouts (1 units short since 2023),M. Patel,2024-06-07
+PT00328,574-8971,TRACK LINK ASSEMBLY,CAT MH3040,ALL,P2,Repeated stockouts (1 units short since 2023),K. Nguyen,2024-11-05
+PT02146,576-1553,RECOIL SPRING,CAT M318,ALL,P2,Repeated stockouts (2 units short since 2023),K. Nguyen,2025-05-25
+PT02521,5B-9024,CONTROL VALVE,CAT 430,ALL,P2,Repeated stockouts (1 units short since 2023),J. Thompson,2024-05-23
+PT00312,5F-0525,TRACK LINK ASSEMBLY,CAT 239,ALL,P2,Repeated stockouts (2 units short since 2023),J. Thompson,2024-10-09
+PT02124,5W-5535,CARRIER ROLLER,CAT 323,ALL,P2,Repeated stockouts (1 units short since 2023),M. Patel,2026-03-08
+PT02496,5Y-7750,CONTROL VALVE,CAT 3512E Well Service,ALL,P2,Repeated stockouts (1 units short since 2023),J. Thompson,2024-02-19
+PT02070,6I-5833,CARRIER ROLLER,CAT 535D,ALL,P2,Repeated stockouts (2 units short since 2023),J. Thompson,2026-03-06
+PT02142,6Y-3026,RECOIL SPRING,CAT 963,ALL,P2,Repeated stockouts (2 units short since 2023),J. Thompson,2024-11-08
+PT02056,7G-0990,CARRIER ROLLER,CAT D9,ALL,P2,Repeated stockouts (2 units short since 2023),K. Nguyen,2024-05-08
+PT02575,7L-3233,SWING MOTOR,CAT 938,ALL,P2,Repeated stockouts (1 units short since 2023),K. Nguyen,2025-10-09
+PT02113,7N-9438,CARRIER ROLLER,CAT PL87,ALL,P2,Repeated stockouts (2 units short since 2023),K. Nguyen,2024-01-23
+PT02100,7U-7726,CARRIER ROLLER,CAT 963,ALL,P2,Repeated stockouts (1 units short since 2023),S. Brooks,2024-09-14
+PT00035,7X-5992,TRACK SHOE,CAT TL1255,ALL,P2,Repeated stockouts (1 units short since 2023),S. Brooks,2024-03-30
+PT02037,7X-6752,CARRIER ROLLER,CAT 326,ALL,P2,Repeated stockouts (2 units short since 2023),M. Patel,2025-01-16
+PT02045,8J-0585,CARRIER ROLLER,CAT 420,ALL,P2,Repeated stockouts (2 units short since 2023),S. Brooks,2025-01-09
+PT00049,8J-4319,TRACK SHOE,CAT TL1055,ALL,P2,Repeated stockouts (1 units short since 2023),D. Carter-Lee,2026-03-12
+PT00056,9B-5618,TRACK SHOE,CAT D5,ALL,P2,Repeated stockouts (1 units short since 2023),K. Nguyen,2025-06-11
+PT03343,9R-3862,ECM CONTROLLER,CAT 545D,ALL,P2,Repeated stockouts (1 units short since 2023),D. Carter-Lee,2024-08-29
+PT00261,9X-7154,IDLER GROUP,CAT 906,ALL,P2,Repeated stockouts (1 units short since 2023),R. Alvarez,2024-09-04

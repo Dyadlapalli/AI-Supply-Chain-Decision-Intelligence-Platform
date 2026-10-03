@@ -1,0 +1,338 @@
+file,sheet,location,column,issue_type,dq_dimension,severity,golden_value,raw_value
+Inventory_Policy_Matrix.xlsx,Policy Matrix,A4:N5,*,Pivoted layout with two-row merged header (not tabular),Validity,Medium,,
+Inventory_Policy_Matrix.xlsx,Policy Matrix,A9,part_category,Category name not matching master,Consistency,Medium,Ground Engaging Tools,GET
+Inventory_Policy_Matrix.xlsx,Policy Matrix,A10,part_category,Category name not matching master,Consistency,Medium,Undercarriage,Undercarrage
+Inventory_Policy_Matrix.xlsx,Policy Matrix,B11,Service Level,Percentage stored as text,Validity,Medium,0.97,95%
+Inventory_Policy_Matrix.xlsx,Policy Matrix,F14,Service Level,Service level entered as 93 instead of 0.93,Validity,High,0.93,93
+Inventory_Policy_Matrix.xlsx,Policy Matrix,J17,Service Level,Placeholder instead of value,Completeness,High,0.85,TBD
+Inventory_Policy_Matrix.xlsx,Policy Matrix,G16,Review (days),Review cycle as free text,Validity,Medium,14,2 wks
+Inventory_Policy_Matrix.xlsx,Policy Matrix,M13,Max DOS,Missing max days of supply,Completeness,Medium,60,
+Inventory_Policy_Matrix.xlsx,Policy Matrix,D12,Min DOS,Min DOS greater than Max DOS,Validity,High,5,60
+Inventory_Policy_Matrix.xlsx,Policy Matrix,A19,*,Business rule held only as a footnote,Completeness,Medium,,
+Safety_Stock_Targets_FY2026_FINAL.xlsx,East Region,B12,part_number,Part number format not standardized,Validity,Medium,192-7585,192-7585 
+Safety_Stock_Targets_FY2026_FINAL.xlsx,East Region,B16,part_number,Part number format not standardized,Validity,Medium,1M-1092,1M1092
+Safety_Stock_Targets_FY2026_FINAL.xlsx,East Region,C26,safety_stock_qty,Text in quantity cell,Validity,High,9,?
+Safety_Stock_Targets_FY2026_FINAL.xlsx,East Region,B34,part_number,Part number format not standardized,Validity,Medium,3N-1765,3n-1765
+Safety_Stock_Targets_FY2026_FINAL.xlsx,East Region,B41,part_number,Part number format not standardized,Validity,Medium,455-5452,4555452
+Safety_Stock_Targets_FY2026_FINAL.xlsx,East Region,B48,part_number,Part number format not standardized,Validity,Medium,4F-8010,4F 8010
+Safety_Stock_Targets_FY2026_FINAL.xlsx,East Region,C81,safety_stock_qty,Safety stock greater than reorder point,Validity,Medium,1,7
+Safety_Stock_Targets_FY2026_FINAL.xlsx,East Region,A89,*,Duplicate part row with conflicting quantity,Uniqueness,High,B005|PT00405,8
+Safety_Stock_Targets_FY2026_FINAL.xlsx,East Region,C116,safety_stock_qty,Missing safety stock,Completeness,High,2,
+Safety_Stock_Targets_FY2026_FINAL.xlsx,East Region,E124,max_qty,Max below reorder point,Validity,Medium,8,3
+Safety_Stock_Targets_FY2026_FINAL.xlsx,East Region,B129,part_number,Part number format not standardized,Validity,Medium,8A-3578,8A3578
+Safety_Stock_Targets_FY2026_FINAL.xlsx,East Region,A191,*,Duplicate part row with conflicting quantity,Uniqueness,High,B006|PT00472,9
+Safety_Stock_Targets_FY2026_FINAL.xlsx,East Region,E202,max_qty,Max below reorder point,Validity,Medium,3,-1
+Safety_Stock_Targets_FY2026_FINAL.xlsx,East Region,E213,max_qty,Max below reorder point,Validity,Medium,6,2
+Safety_Stock_Targets_FY2026_FINAL.xlsx,East Region,C215,safety_stock_qty,Missing safety stock,Completeness,High,2,
+Safety_Stock_Targets_FY2026_FINAL.xlsx,East Region,C237,safety_stock_qty,Text in quantity cell,Validity,High,2,TBD
+Safety_Stock_Targets_FY2026_FINAL.xlsx,East Region,B245,part_number,Part number format not standardized,Validity,Medium,461-2167,4612167
+Safety_Stock_Targets_FY2026_FINAL.xlsx,East Region,C249,safety_stock_qty,Manual override flagged only by cell colour,Consistency,Low,3,3
+Safety_Stock_Targets_FY2026_FINAL.xlsx,East Region,C256,safety_stock_qty,Manual override flagged only by cell colour,Consistency,Low,4,4
+Safety_Stock_Targets_FY2026_FINAL.xlsx,East Region,C264,safety_stock_qty,Safety stock greater than reorder point,Validity,Medium,4,10
+Safety_Stock_Targets_FY2026_FINAL.xlsx,East Region,E292,max_qty,Max below reorder point,Validity,Medium,6,2
+Safety_Stock_Targets_FY2026_FINAL.xlsx,East Region,C295,safety_stock_qty,Missing safety stock,Completeness,High,2,
+Safety_Stock_Targets_FY2026_FINAL.xlsx,East Region,B299,part_number,Part number format not standardized,Validity,Medium,176-8028,176-8028
+Safety_Stock_Targets_FY2026_FINAL.xlsx,East Region,C354,safety_stock_qty,Missing safety stock,Completeness,High,2,
+Safety_Stock_Targets_FY2026_FINAL.xlsx,East Region,C385,safety_stock_qty,Manual override flagged only by cell colour,Consistency,Low,7,7
+Safety_Stock_Targets_FY2026_FINAL.xlsx,East Region,A:A,branch,Branch merged vertically; name only in first row of each group,Completeness,Medium,,
+Safety_Stock_Targets_FY2026_FINAL.xlsx,East Region,*,*,Subtotal formula rows and blank rows mixed into data,Validity,Medium,,
+Safety_Stock_Targets_FY2026_FINAL.xlsx,East Region,*,branch,Branch name used instead of branch ID,Consistency,Low,,
+Safety_Stock_Targets_FY2026_FINAL.xlsx,East Region,B424,part_number,Part number not in master,Integrity,High,,510-5042
+Safety_Stock_Targets_FY2026_FINAL.xlsx,East Region,B425,part_number,Part number not in master,Integrity,High,,279-4608
+Safety_Stock_Targets_FY2026_FINAL.xlsx,East Region,B426,part_number,Part number not in master,Integrity,High,,140-7104
+Safety_Stock_Targets_FY2026_FINAL.xlsx,North Region,C16,safety_stock_qty,Manual override flagged only by cell colour,Consistency,Low,3,3
+Safety_Stock_Targets_FY2026_FINAL.xlsx,North Region,B28,part_number,Part number format not standardized,Validity,Medium,400-9896,400-9896 
+Safety_Stock_Targets_FY2026_FINAL.xlsx,North Region,E54,max_qty,Max below reorder point,Validity,Medium,5,1
+Safety_Stock_Targets_FY2026_FINAL.xlsx,North Region,C84,safety_stock_qty,Text in quantity cell,Validity,High,16,see Jim
+Safety_Stock_Targets_FY2026_FINAL.xlsx,North Region,C86,safety_stock_qty,Manual override flagged only by cell colour,Consistency,Low,4,4
+Safety_Stock_Targets_FY2026_FINAL.xlsx,North Region,E89,max_qty,Max below reorder point,Validity,Medium,8,3
+Safety_Stock_Targets_FY2026_FINAL.xlsx,North Region,A107,*,Duplicate part row with conflicting quantity,Uniqueness,High,B009|PT04102,8
+Safety_Stock_Targets_FY2026_FINAL.xlsx,North Region,A130,*,Duplicate part row with conflicting quantity,Uniqueness,High,B010|PT01766,9
+Safety_Stock_Targets_FY2026_FINAL.xlsx,North Region,B145,part_number,Part number format not standardized,Validity,Medium,449-5069,449 5069
+Safety_Stock_Targets_FY2026_FINAL.xlsx,North Region,C175,safety_stock_qty,Text in quantity cell,Validity,High,4,see Jim
+Safety_Stock_Targets_FY2026_FINAL.xlsx,North Region,E178,max_qty,Max below reorder point,Validity,Medium,7,2
+Safety_Stock_Targets_FY2026_FINAL.xlsx,North Region,C179,safety_stock_qty,Text in quantity cell,Validity,High,1,TBD
+Safety_Stock_Targets_FY2026_FINAL.xlsx,North Region,B183,part_number,Part number format not standardized,Validity,Medium,221-8133,221-8133 
+Safety_Stock_Targets_FY2026_FINAL.xlsx,North Region,B192,part_number,Part number format not standardized,Validity,Medium,2G-7658,2g-7658
+Safety_Stock_Targets_FY2026_FINAL.xlsx,North Region,C197,safety_stock_qty,Safety stock greater than reorder point,Validity,Medium,3,9
+Safety_Stock_Targets_FY2026_FINAL.xlsx,North Region,B203,part_number,Part number format not standardized,Validity,Medium,3J-9614,3j-9614
+Safety_Stock_Targets_FY2026_FINAL.xlsx,North Region,A225,*,Duplicate part row with conflicting quantity,Uniqueness,High,B013|PT01746,6
+Safety_Stock_Targets_FY2026_FINAL.xlsx,North Region,C233,safety_stock_qty,Safety stock greater than reorder point,Validity,Medium,7,13
+Safety_Stock_Targets_FY2026_FINAL.xlsx,North Region,B241,part_number,Part number format not standardized,Validity,Medium,255-8810,255-8810
+Safety_Stock_Targets_FY2026_FINAL.xlsx,North Region,C245,safety_stock_qty,Text in quantity cell,Validity,High,2,see Jim
+Safety_Stock_Targets_FY2026_FINAL.xlsx,North Region,C248,safety_stock_qty,Text in quantity cell,Validity,High,5,see Jim
+Safety_Stock_Targets_FY2026_FINAL.xlsx,North Region,C252,safety_stock_qty,Safety stock greater than reorder point,Validity,Medium,2,8
+Safety_Stock_Targets_FY2026_FINAL.xlsx,North Region,B255,part_number,Part number format not standardized,Validity,Medium,416-2560,4162560
+Safety_Stock_Targets_FY2026_FINAL.xlsx,North Region,C277,safety_stock_qty,Missing safety stock,Completeness,High,2,
+Safety_Stock_Targets_FY2026_FINAL.xlsx,North Region,B288,part_number,Part number format not standardized,Validity,Medium,214-2749,214-2749
+Safety_Stock_Targets_FY2026_FINAL.xlsx,North Region,A330,*,Duplicate part row with conflicting quantity,Uniqueness,High,B025|PT01775,5
+Safety_Stock_Targets_FY2026_FINAL.xlsx,North Region,A348,*,Duplicate part row with conflicting quantity,Uniqueness,High,B027|PT01770,5
+Safety_Stock_Targets_FY2026_FINAL.xlsx,North Region,C355,safety_stock_qty,Manual override flagged only by cell colour,Consistency,Low,2,2
+Safety_Stock_Targets_FY2026_FINAL.xlsx,North Region,C363,safety_stock_qty,Manual override flagged only by cell colour,Consistency,Low,3,3
+Safety_Stock_Targets_FY2026_FINAL.xlsx,North Region,B383,part_number,Part number format not standardized,Validity,Medium,7D-1694,7D-1694 
+Safety_Stock_Targets_FY2026_FINAL.xlsx,North Region,A:A,branch,Branch merged vertically; name only in first row of each group,Completeness,Medium,,
+Safety_Stock_Targets_FY2026_FINAL.xlsx,North Region,*,*,Subtotal formula rows and blank rows mixed into data,Validity,Medium,,
+Safety_Stock_Targets_FY2026_FINAL.xlsx,North Region,*,branch,Branch name used instead of branch ID,Consistency,Low,,
+Safety_Stock_Targets_FY2026_FINAL.xlsx,North Region,B395,part_number,Part number not in master,Integrity,High,,464-8244
+Safety_Stock_Targets_FY2026_FINAL.xlsx,North Region,B396,part_number,Part number not in master,Integrity,High,,407-9191
+Safety_Stock_Targets_FY2026_FINAL.xlsx,North Region,B397,part_number,Part number not in master,Integrity,High,,116-9528
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Central Region,A14,*,Duplicate part row with conflicting quantity,Uniqueness,High,B003|PT01770,5
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Central Region,C19,safety_stock_qty,Manual override flagged only by cell colour,Consistency,Low,7,7
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Central Region,C36,safety_stock_qty,Safety stock greater than reorder point,Validity,Medium,6,13
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Central Region,A56,*,Duplicate part row with conflicting quantity,Uniqueness,High,B015|PT01333,6
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Central Region,E84,max_qty,Max below reorder point,Validity,Medium,21,14
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Central Region,E101,max_qty,Max below reorder point,Validity,Medium,17,11
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Central Region,B115,part_number,Part number format not standardized,Validity,Medium,590-9845,590-9845 
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Central Region,C128,safety_stock_qty,Missing safety stock,Completeness,High,3,
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Central Region,A:A,branch,Branch merged vertically; name only in first row of each group,Completeness,Medium,,
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Central Region,*,*,Subtotal formula rows and blank rows mixed into data,Validity,Medium,,
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Central Region,*,branch,Branch name used instead of branch ID,Consistency,Low,,
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Central Region,B181,part_number,Part number not in master,Integrity,High,,204-3943
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Central Region,B182,part_number,Part number not in master,Integrity,High,,382-5372
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Central Region,B183,part_number,Part number not in master,Integrity,High,,480-2257
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,B33,part_number,Part number format not standardized,Validity,Medium,3A-4948,3A-4948 
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,B39,part_number,Part number format not standardized,Validity,Medium,413-0540,413 0540
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,C48,safety_stock_qty,Missing safety stock,Completeness,High,5,
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,C60,safety_stock_qty,Safety stock greater than reorder point,Validity,Medium,9,17
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,C80,safety_stock_qty,Missing safety stock,Completeness,High,2,
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,C95,safety_stock_qty,Safety stock greater than reorder point,Validity,Medium,7,13
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,C99,safety_stock_qty,Manual override flagged only by cell colour,Consistency,Low,6,6
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,C110,safety_stock_qty,Missing safety stock,Completeness,High,3,
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,B115,part_number,Part number format not standardized,Validity,Medium,3A-7154,3A7154
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,C118,safety_stock_qty,Text in quantity cell,Validity,High,6,TBD
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,C134,safety_stock_qty,Missing safety stock,Completeness,High,3,
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,C137,safety_stock_qty,Manual override flagged only by cell colour,Consistency,Low,1,1
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,B144,part_number,Part number format not standardized,Validity,Medium,7N-5337,7N 5337
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,B155,part_number,Part number format not standardized,Validity,Medium,132-7855,132-7855
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,A169,*,Duplicate part row with conflicting quantity,Uniqueness,High,B011|PT01652,6
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,C170,safety_stock_qty,Manual override flagged only by cell colour,Consistency,Low,3,3
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,C192,safety_stock_qty,Manual override flagged only by cell colour,Consistency,Low,22,22
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,B195,part_number,Part number format not standardized,Validity,Medium,5I-5122,5i-5122
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,B213,part_number,Part number format not standardized,Validity,Medium,113-9502,1139502
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,B253,part_number,Part number format not standardized,Validity,Medium,448-9576,4489576
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,C256,safety_stock_qty,Manual override flagged only by cell colour,Consistency,Low,5,5
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,C265,safety_stock_qty,Safety stock greater than reorder point,Validity,Medium,6,12
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,C273,safety_stock_qty,Text in quantity cell,Validity,High,4,TBD
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,B280,part_number,Part number format not standardized,Validity,Medium,7R-6010,7R 6010
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,C306,safety_stock_qty,Missing safety stock,Completeness,High,23,
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,A311,*,Duplicate part row with conflicting quantity,Uniqueness,High,B016|PT01689,4
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,C322,safety_stock_qty,Missing safety stock,Completeness,High,4,
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,C331,safety_stock_qty,Text in quantity cell,Validity,High,5,see Jim
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,C334,safety_stock_qty,Safety stock greater than reorder point,Validity,Medium,6,12
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,C335,safety_stock_qty,Text in quantity cell,Validity,High,3,see Jim
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,B341,part_number,Part number format not standardized,Validity,Medium,330-2553,330 2553
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,C347,safety_stock_qty,Text in quantity cell,Validity,High,6,TBD
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,C366,safety_stock_qty,Missing safety stock,Completeness,High,11,
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,C377,safety_stock_qty,Text in quantity cell,Validity,High,7,TBD
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,E387,max_qty,Max below reorder point,Validity,Medium,7,2
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,C409,safety_stock_qty,Missing safety stock,Completeness,High,9,
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,B428,part_number,Part number format not standardized,Validity,Medium,394-9821,394-9821 
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,B433,part_number,Part number format not standardized,Validity,Medium,3P-3960,3P-3960 
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,C447,safety_stock_qty,Safety stock greater than reorder point,Validity,Medium,44,54
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,C479,safety_stock_qty,Safety stock greater than reorder point,Validity,Medium,2,8
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,E506,max_qty,Max below reorder point,Validity,Medium,4,0
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,C529,safety_stock_qty,Missing safety stock,Completeness,High,4,
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,C533,safety_stock_qty,Text in quantity cell,Validity,High,6,TBD
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,A:A,branch,Branch merged vertically; name only in first row of each group,Completeness,Medium,,
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,*,*,Subtotal formula rows and blank rows mixed into data,Validity,Medium,,
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,*,branch,Branch name used instead of branch ID,Consistency,Low,,
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,B587,part_number,Part number not in master,Integrity,High,,314-6446
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,B588,part_number,Part number not in master,Integrity,High,,107-2734
+Safety_Stock_Targets_FY2026_FINAL.xlsx,Southwest Region,B589,part_number,Part number not in master,Integrity,High,,107-2731
+Safety_Stock_Targets_FY2026_v2.xlsx,*,*,*,Outdated version of file still in circulation (conflicts with FINAL),Consistency,High,,
+Supplier_Exception_List.xlsx,Exceptions,A2,status,Status meaning encoded only in fill colour legend,Consistency,Medium,,
+Supplier_Exception_List.xlsx,Exceptions,A3:J3,*,"Supplier identified by free-text name, no supplier ID column",Integrity,High,,
+Supplier_Exception_List.xlsx,Exceptions,E4,start_date,Start date as quarter/month text,Validity,Low,2023-01-01,Jan 2023
+Supplier_Exception_List.xlsx,Exceptions,I5,status,Status value not standardized,Consistency,Low,Closed,Resolved
+Supplier_Exception_List.xlsx,Exceptions,I6,status,Status value not standardized,Consistency,Low,Closed,closed
+Supplier_Exception_List.xlsx,Exceptions,I7,status,Status value not standardized,Consistency,Low,Closed,DONE
+Supplier_Exception_List.xlsx,Exceptions,E7,start_date,Start date as quarter/month text,Validity,Low,2023-01-01,Jan 2023
+Supplier_Exception_List.xlsx,Exceptions,E8,start_date,Start date as quarter/month text,Validity,Low,2023-04-01,Q2 2023
+Supplier_Exception_List.xlsx,Exceptions,I9,status,Status value not standardized,Consistency,Low,Open,open
+Supplier_Exception_List.xlsx,Exceptions,E10,start_date,Start date as quarter/month text,Validity,Low,2023-07-01,Jul 2023
+Supplier_Exception_List.xlsx,Exceptions,I11,status,Status value not standardized,Consistency,Low,Closed,DONE
+Supplier_Exception_List.xlsx,Exceptions,E11,start_date,Start date as quarter/month text,Validity,Low,2023-07-01,Jul 2023
+Supplier_Exception_List.xlsx,Exceptions,I12,status,Status value not standardized,Consistency,Low,Closed,Resolved
+Supplier_Exception_List.xlsx,Exceptions,I13,status,Status value not standardized,Consistency,Low,Closed,closed
+Supplier_Exception_List.xlsx,Exceptions,I14,status,Status value not standardized,Consistency,Low,Closed,DONE
+Supplier_Exception_List.xlsx,Exceptions,I15,status,Status value not standardized,Consistency,Low,Closed,DONE
+Supplier_Exception_List.xlsx,Exceptions,B16,supplier_name,Supplier name variant,Consistency,Medium,Bridgestone OTR,Bridgestone OTR 
+Supplier_Exception_List.xlsx,Exceptions,I16,status,Status value not standardized,Consistency,Low,Open,In progress
+Supplier_Exception_List.xlsx,Exceptions,E17,start_date,Start date as quarter/month text,Validity,Low,2024-07-01,Jul 2024
+Supplier_Exception_List.xlsx,Exceptions,I18,status,Status value not standardized,Consistency,Low,Closed,DONE
+Supplier_Exception_List.xlsx,Exceptions,E18,start_date,Start date as quarter/month text,Validity,Low,2024-07-01,Jul 2024
+Supplier_Exception_List.xlsx,Exceptions,I20,status,Status value not standardized,Consistency,Low,Closed,DONE
+Supplier_Exception_List.xlsx,Exceptions,I21,status,Status value not standardized,Consistency,Low,Closed,Resolved
+Supplier_Exception_List.xlsx,Exceptions,I22,status,Status value not standardized,Consistency,Low,Closed,closed
+Supplier_Exception_List.xlsx,Exceptions,E22,start_date,Start date as quarter/month text,Validity,Low,2025-03-01,Q1 2025
+Supplier_Exception_List.xlsx,Exceptions,E24,start_date,Start date as quarter/month text,Validity,Low,2025-04-01,Q2 2025
+Supplier_Exception_List.xlsx,Exceptions,I26,status,Status value not standardized,Consistency,Low,Closed,DONE
+Supplier_Exception_List.xlsx,Exceptions,I27,status,Status value not standardized,Consistency,Low,Closed,Resolved
+Supplier_Exception_List.xlsx,Exceptions,I28,status,Status value not standardized,Consistency,Low,Open,Open?
+Supplier_Exception_List.xlsx,Exceptions,E28,start_date,Start date as quarter/month text,Validity,Low,2026-01-01,Jan 2026
+Supplier_Exception_List.xlsx,Exceptions,I29,status,Status value not standardized,Consistency,Low,Open,Open?
+Supplier_Exception_List.xlsx,Exceptions,B30,supplier_name,Supplier name variant,Consistency,Medium,Appalachian Fastener Co.,Appalachian Fastener 
+Supplier_Exception_List.xlsx,Exceptions,I30,status,Status value not standardized,Consistency,Low,Open,Open?
+Supplier_Exception_List.xlsx,Exceptions,E30,start_date,Start date as quarter/month text,Validity,Low,2026-04-01,Q2 2026
+Supplier_Exception_List.xlsx,Exceptions,I31,status,Status value not standardized,Consistency,Low,Open,Open?
+Supplier_Exception_List.xlsx,Exceptions,F33,expected_resolution,Non-date resolution ETA,Validity,Medium,2026-10-01,ASAP
+Supplier_Exception_List.xlsx,Exceptions,I33,status,Status value not standardized,Consistency,Low,Open,open
+Supplier_Exception_List.xlsx,Exceptions,B34,supplier_name,Multiple suppliers in one cell,Validity,High,,Berco / ITR
+Supplier_Exception_List.xlsx,Exceptions,I34,status,Combined row still Open while source rows are Closed,Consistency,Medium,Closed,Open
+Critical_Parts_List.xlsx,Critical Parts,*,priority,"Priority stored only as red cell fill, no priority column",Completeness,High,,
+Critical_Parts_List.xlsx,Critical Parts,C4,equipment_model,Free-text list of machines,Validity,Low,CAT 7495,"CAT 7495, 7495B, others"
+Critical_Parts_List.xlsx,Critical Parts,D4,scope,Branch scope as free text / blank,Consistency,Medium,Southwest,SW only
+Critical_Parts_List.xlsx,Critical Parts,D5,scope,Branch scope as free text / blank,Consistency,Medium,ALL,All
+Critical_Parts_List.xlsx,Critical Parts,D6,scope,Branch scope as free text / blank,Consistency,Medium,Southwest,Abingdon/Grundy/Bluefield
+Critical_Parts_List.xlsx,Critical Parts,C7,equipment_model,Free-text list of machines,Validity,Low,CAT C7.1,"CAT C7.1, C7.1B, others"
+Critical_Parts_List.xlsx,Critical Parts,C9,equipment_model,Free-text list of machines,Validity,Low,CAT 289,"CAT 289, 289B, others"
+Critical_Parts_List.xlsx,Critical Parts,D9,scope,Branch scope as free text / blank,Consistency,Medium,ALL,all branches
+Critical_Parts_List.xlsx,Critical Parts,C10,equipment_model,Free-text list of machines,Validity,Low,CAT R2900,"CAT R2900, R2900B, others"
+Critical_Parts_List.xlsx,Critical Parts,D10,scope,Branch scope as free text / blank,Consistency,Medium,Southwest,Abingdon/Grundy/Bluefield
+Critical_Parts_List.xlsx,Critical Parts,A12,part_number,Multiple part numbers in one cell,Validity,High,1R-0716,1R-0716 / 3S-1686
+Critical_Parts_List.xlsx,Critical Parts,D12,scope,Branch scope as free text / blank,Consistency,Medium,ALL,all branches
+Critical_Parts_List.xlsx,Critical Parts,D14,scope,Branch scope as free text / blank,Consistency,Medium,ALL,All
+Critical_Parts_List.xlsx,Critical Parts,C17,equipment_model,Free-text list of machines,Validity,Low,CAT AD45,"CAT AD45, AD45B, others"
+Critical_Parts_List.xlsx,Critical Parts,C18,equipment_model,Free-text list of machines,Validity,Low,CAT 6040,"CAT 6040, 6040B, others"
+Critical_Parts_List.xlsx,Critical Parts,D18,scope,Branch scope as free text / blank,Consistency,Medium,Southwest,SW only
+Critical_Parts_List.xlsx,Critical Parts,D19,scope,Branch scope as free text / blank,Consistency,Medium,ALL,
+Critical_Parts_List.xlsx,Critical Parts,A22,part_number,Part number format not standardized,Validity,Medium,2N-8831,2n-8831
+Critical_Parts_List.xlsx,Critical Parts,B23,part_description,Description differs from part master,Consistency,Low,TRACK ROLLER,Track Roller
+Critical_Parts_List.xlsx,Critical Parts,D23,scope,Branch scope as free text / blank,Consistency,Medium,ALL,All
+Critical_Parts_List.xlsx,Critical Parts,C24,equipment_model,Free-text list of machines,Validity,Low,CAT A14B Auger,"CAT A14B Auger, A14B AugerB, others"
+Critical_Parts_List.xlsx,Critical Parts,C25,equipment_model,Free-text list of machines,Validity,Low,CAT 6015B,"CAT 6015B, 6015BB, others"
+Critical_Parts_List.xlsx,Critical Parts,D25,scope,Branch scope as free text / blank,Consistency,Medium,Southwest,Abingdon/Grundy/Bluefield
+Critical_Parts_List.xlsx,Critical Parts,D26,scope,Branch scope as free text / blank,Consistency,Medium,ALL,All
+Critical_Parts_List.xlsx,Critical Parts,A27,part_number,Part number format not standardized,Validity,Medium,373-6759,373-6759 
+Critical_Parts_List.xlsx,Critical Parts,B28,part_description,Description differs from part master,Consistency,Low,TRACK ROLLER,Track Roller
+Critical_Parts_List.xlsx,Critical Parts,C28,equipment_model,Free-text list of machines,Validity,Low,CAT 794 AC,"CAT 794 AC, 794 ACB, others"
+Critical_Parts_List.xlsx,Critical Parts,D28,scope,Branch scope as free text / blank,Consistency,Medium,Southwest,SW only
+Critical_Parts_List.xlsx,Critical Parts,C29,equipment_model,Free-text list of machines,Validity,Low,CAT PL61,"CAT PL61, PL61B, others"
+Critical_Parts_List.xlsx,Critical Parts,D29,scope,Branch scope as free text / blank,Consistency,Medium,ALL,All
+Critical_Parts_List.xlsx,Critical Parts,D30,scope,Branch scope as free text / blank,Consistency,Medium,ALL,All
+Critical_Parts_List.xlsx,Critical Parts,D31,scope,Branch scope as free text / blank,Consistency,Medium,Southwest,SW only
+Critical_Parts_List.xlsx,Critical Parts,D32,scope,Branch scope as free text / blank,Consistency,Medium,Southwest,Abingdon/Grundy/Bluefield
+Critical_Parts_List.xlsx,Critical Parts,D33,scope,Branch scope as free text / blank,Consistency,Medium,ALL,
+Critical_Parts_List.xlsx,Critical Parts,B34,part_description,Description differs from part master,Consistency,Low,TRACK LINK ASSEMBLY,Track Link Assy
+Critical_Parts_List.xlsx,Critical Parts,D35,scope,Branch scope as free text / blank,Consistency,Medium,Southwest,SW only
+Critical_Parts_List.xlsx,Critical Parts,A36,part_number,Multiple part numbers in one cell,Validity,High,5A-2104,5A-2104 / 196-1917
+Critical_Parts_List.xlsx,Critical Parts,D36,scope,Branch scope as free text / blank,Consistency,Medium,ALL,All
+Critical_Parts_List.xlsx,Critical Parts,B37,part_description,Description differs from part master,Consistency,Low,TRACK ROLLER,Track Roller
+Critical_Parts_List.xlsx,Critical Parts,A38,*,Part listed twice,Uniqueness,Medium,5M-0401,5M-0401
+Critical_Parts_List.xlsx,Critical Parts,A39,part_number,Multiple part numbers in one cell,Validity,High,5T-5761,5T-5761 / 7N-9438
+Critical_Parts_List.xlsx,Critical Parts,D39,scope,Branch scope as free text / blank,Consistency,Medium,Southwest,SW only
+Critical_Parts_List.xlsx,Critical Parts,D40,scope,Branch scope as free text / blank,Consistency,Medium,Southwest,Abingdon/Grundy/Bluefield
+Critical_Parts_List.xlsx,Critical Parts,A42,*,Part listed twice,Uniqueness,Medium,6Y-4563,6Y-4563
+Critical_Parts_List.xlsx,Critical Parts,A43,part_number,Part number format not standardized,Validity,Medium,7R-6010,7r-6010
+Critical_Parts_List.xlsx,Critical Parts,D43,scope,Branch scope as free text / blank,Consistency,Medium,Southwest,SW only
+Critical_Parts_List.xlsx,Critical Parts,A44,part_number,Part number format not standardized,Validity,Medium,7S-3797,7s-3797
+Critical_Parts_List.xlsx,Critical Parts,D44,scope,Branch scope as free text / blank,Consistency,Medium,Southwest,SW only
+Critical_Parts_List.xlsx,Critical Parts,D45,scope,Branch scope as free text / blank,Consistency,Medium,ALL,all branches
+Critical_Parts_List.xlsx,Critical Parts,A46,part_number,Multiple part numbers in one cell,Validity,High,8F-9785,8F-9785 / 453-8063
+Critical_Parts_List.xlsx,Critical Parts,D47,scope,Branch scope as free text / blank,Consistency,Medium,Southwest,Abingdon/Grundy/Bluefield
+Critical_Parts_List.xlsx,Critical Parts,D48,scope,Branch scope as free text / blank,Consistency,Medium,Southwest,Abingdon/Grundy/Bluefield
+Critical_Parts_List.xlsx,Critical Parts,A50,part_number,Part number format not standardized,Validity,Medium,9B-7077,9B 7077
+Critical_Parts_List.xlsx,Critical Parts,D50,scope,Branch scope as free text / blank,Consistency,Medium,ALL,
+Critical_Parts_List.xlsx,Critical Parts,D52,scope,Branch scope as free text / blank,Consistency,Medium,ALL,All
+Critical_Parts_List.xlsx,Critical Parts,D54,scope,Branch scope as free text / blank,Consistency,Medium,ALL,All
+Critical_Parts_List.xlsx,Critical Parts,B55,part_description,Description differs from part master,Consistency,Low,TRACK SHOE,Track Shoe
+Critical_Parts_List.xlsx,Critical Parts,D55,scope,Branch scope as free text / blank,Consistency,Medium,ALL,all branches
+Critical_Parts_List.xlsx,Critical Parts,D56,scope,Branch scope as free text / blank,Consistency,Medium,ALL,All
+Critical_Parts_List.xlsx,Critical Parts,D57,scope,Branch scope as free text / blank,Consistency,Medium,ALL,All
+Critical_Parts_List.xlsx,Critical Parts,D58,scope,Branch scope as free text / blank,Consistency,Medium,ALL,
+Critical_Parts_List.xlsx,Critical Parts,A59,part_number,Multiple part numbers in one cell,Validity,High,122-2117,122-2117 / 5B-9024
+Critical_Parts_List.xlsx,Critical Parts,D59,scope,Branch scope as free text / blank,Consistency,Medium,ALL,
+Critical_Parts_List.xlsx,Critical Parts,D60,scope,Branch scope as free text / blank,Consistency,Medium,ALL,All
+Critical_Parts_List.xlsx,Critical Parts,D61,scope,Branch scope as free text / blank,Consistency,Medium,ALL,All
+Critical_Parts_List.xlsx,Critical Parts,B62,part_description,Description differs from part master,Consistency,Low,TRACK ROLLER,Track Roller
+Critical_Parts_List.xlsx,Critical Parts,D62,scope,Branch scope as free text / blank,Consistency,Medium,ALL,all branches
+Critical_Parts_List.xlsx,Critical Parts,D64,scope,Branch scope as free text / blank,Consistency,Medium,ALL,
+Critical_Parts_List.xlsx,Critical Parts,B65,part_description,Description differs from part master,Consistency,Low,TURBOCHARGER,Turbocharger
+Critical_Parts_List.xlsx,Critical Parts,D65,scope,Branch scope as free text / blank,Consistency,Medium,ALL,All
+Critical_Parts_List.xlsx,Critical Parts,D66,scope,Branch scope as free text / blank,Consistency,Medium,ALL,all branches
+Critical_Parts_List.xlsx,Critical Parts,A67,*,Part listed twice,Uniqueness,Medium,1E-9945,1E-9945
+Critical_Parts_List.xlsx,Critical Parts,C69,equipment_model,Free-text list of machines,Validity,Low,CAT 545D,"CAT 545D, 545DB, others"
+Critical_Parts_List.xlsx,Critical Parts,D69,scope,Branch scope as free text / blank,Consistency,Medium,ALL,All
+Critical_Parts_List.xlsx,Critical Parts,D70,scope,Branch scope as free text / blank,Consistency,Medium,ALL,
+Critical_Parts_List.xlsx,Critical Parts,D71,scope,Branch scope as free text / blank,Consistency,Medium,ALL,All
+Critical_Parts_List.xlsx,Critical Parts,D72,scope,Branch scope as free text / blank,Consistency,Medium,ALL,all branches
+Critical_Parts_List.xlsx,Critical Parts,C73,equipment_model,Free-text list of machines,Validity,Low,CAT TL1055,"CAT TL1055, TL1055B, others"
+Critical_Parts_List.xlsx,Critical Parts,D73,scope,Branch scope as free text / blank,Consistency,Medium,ALL,all branches
+Critical_Parts_List.xlsx,Critical Parts,D74,scope,Branch scope as free text / blank,Consistency,Medium,ALL,all branches
+Critical_Parts_List.xlsx,Critical Parts,B75,part_description,Description differs from part master,Consistency,Low,SPROCKET SEGMENT,Sprocket Segment
+Critical_Parts_List.xlsx,Critical Parts,C75,equipment_model,Free-text list of machines,Validity,Low,CAT 3512E Marine,"CAT 3512E Marine, 3512E MarineB, others"
+Critical_Parts_List.xlsx,Critical Parts,D75,scope,Branch scope as free text / blank,Consistency,Medium,ALL,All
+Critical_Parts_List.xlsx,Critical Parts,A77,*,Part listed twice,Uniqueness,Medium,300-0682,300-0682
+Critical_Parts_List.xlsx,Critical Parts,C78,equipment_model,Free-text list of machines,Validity,Low,CAT 315,"CAT 315, 315B, others"
+Critical_Parts_List.xlsx,Critical Parts,D78,scope,Branch scope as free text / blank,Consistency,Medium,ALL,
+Critical_Parts_List.xlsx,Critical Parts,D79,scope,Branch scope as free text / blank,Consistency,Medium,ALL,all branches
+Critical_Parts_List.xlsx,Critical Parts,D80,scope,Branch scope as free text / blank,Consistency,Medium,ALL,All
+Critical_Parts_List.xlsx,Critical Parts,B81,part_description,Description differs from part master,Consistency,Low,TRACK ROLLER,Track Roller
+Critical_Parts_List.xlsx,Critical Parts,D81,scope,Branch scope as free text / blank,Consistency,Medium,ALL,all branches
+Critical_Parts_List.xlsx,Critical Parts,D82,scope,Branch scope as free text / blank,Consistency,Medium,ALL,
+Critical_Parts_List.xlsx,Critical Parts,D83,scope,Branch scope as free text / blank,Consistency,Medium,ALL,
+Critical_Parts_List.xlsx,Critical Parts,B84,part_description,Description differs from part master,Consistency,Low,TRACK ROLLER,Track Roller
+Critical_Parts_List.xlsx,Critical Parts,C84,equipment_model,Free-text list of machines,Validity,Low,CAT H95,"CAT H95, H95B, others"
+Critical_Parts_List.xlsx,Critical Parts,D84,scope,Branch scope as free text / blank,Consistency,Medium,ALL,all branches
+Critical_Parts_List.xlsx,Critical Parts,C85,equipment_model,Free-text list of machines,Validity,Low,CAT 568,"CAT 568, 568B, others"
+Critical_Parts_List.xlsx,Critical Parts,D85,scope,Branch scope as free text / blank,Consistency,Medium,ALL,
+Critical_Parts_List.xlsx,Critical Parts,D86,scope,Branch scope as free text / blank,Consistency,Medium,ALL,all branches
+Critical_Parts_List.xlsx,Critical Parts,B87,part_description,Description differs from part master,Consistency,Low,IDLER GROUP,Idler Group
+Critical_Parts_List.xlsx,Critical Parts,D87,scope,Branch scope as free text / blank,Consistency,Medium,ALL,All
+Critical_Parts_List.xlsx,Critical Parts,A88,part_number,Part number format not standardized,Validity,Medium,460-2964,460-2964 
+Critical_Parts_List.xlsx,Critical Parts,D88,scope,Branch scope as free text / blank,Consistency,Medium,ALL,all branches
+Critical_Parts_List.xlsx,Critical Parts,D89,scope,Branch scope as free text / blank,Consistency,Medium,ALL,All
+Critical_Parts_List.xlsx,Critical Parts,D90,scope,Branch scope as free text / blank,Consistency,Medium,ALL,All
+Critical_Parts_List.xlsx,Critical Parts,A91,*,Part listed twice,Uniqueness,Medium,481-7739,481-7739
+Critical_Parts_List.xlsx,Critical Parts,B92,part_description,Description differs from part master,Consistency,Low,ECM CONTROLLER,Ecm Controller
+Critical_Parts_List.xlsx,Critical Parts,C92,equipment_model,Free-text list of machines,Validity,Low,CAT 906,"CAT 906, 906B, others"
+Critical_Parts_List.xlsx,Critical Parts,D92,scope,Branch scope as free text / blank,Consistency,Medium,ALL,
+Critical_Parts_List.xlsx,Critical Parts,C93,equipment_model,Free-text list of machines,Validity,Low,CAT 440,"CAT 440, 440B, others"
+Critical_Parts_List.xlsx,Critical Parts,D94,scope,Branch scope as free text / blank,Consistency,Medium,ALL,
+Critical_Parts_List.xlsx,Critical Parts,B95,part_description,Description differs from part master,Consistency,Low,RECOIL SPRING,Recoil Spring
+Critical_Parts_List.xlsx,Critical Parts,D95,scope,Branch scope as free text / blank,Consistency,Medium,ALL,all branches
+Critical_Parts_List.xlsx,Critical Parts,D96,scope,Branch scope as free text / blank,Consistency,Medium,ALL,all branches
+Critical_Parts_List.xlsx,Critical Parts,D97,scope,Branch scope as free text / blank,Consistency,Medium,ALL,All
+Critical_Parts_List.xlsx,Critical Parts,C98,equipment_model,Free-text list of machines,Validity,Low,CAT 430,"CAT 430, 430B, others"
+Critical_Parts_List.xlsx,Critical Parts,D98,scope,Branch scope as free text / blank,Consistency,Medium,ALL,
+Critical_Parts_List.xlsx,Critical Parts,A99,part_number,Part number format not standardized,Validity,Medium,5F-0525,5f-0525
+Critical_Parts_List.xlsx,Critical Parts,D99,scope,Branch scope as free text / blank,Consistency,Medium,ALL,
+Critical_Parts_List.xlsx,Critical Parts,A100,part_number,Multiple part numbers in one cell,Validity,High,5W-5535,5W-5535 / 289-9313
+Critical_Parts_List.xlsx,Critical Parts,D100,scope,Branch scope as free text / blank,Consistency,Medium,ALL,
+Critical_Parts_List.xlsx,Critical Parts,D101,scope,Branch scope as free text / blank,Consistency,Medium,ALL,
+Critical_Parts_List.xlsx,Critical Parts,D103,scope,Branch scope as free text / blank,Consistency,Medium,ALL,all branches
+Critical_Parts_List.xlsx,Critical Parts,A104,part_number,Multiple part numbers in one cell,Validity,High,7G-0990,7G-0990 / 7R-6010
+Critical_Parts_List.xlsx,Critical Parts,C105,equipment_model,Free-text list of machines,Validity,Low,CAT 938,"CAT 938, 938B, others"
+Critical_Parts_List.xlsx,Critical Parts,D105,scope,Branch scope as free text / blank,Consistency,Medium,ALL,
+Critical_Parts_List.xlsx,Critical Parts,A107,*,Part listed twice,Uniqueness,Medium,7N-9438,7N-9438
+Critical_Parts_List.xlsx,Critical Parts,D108,scope,Branch scope as free text / blank,Consistency,Medium,ALL,all branches
+Critical_Parts_List.xlsx,Critical Parts,D109,scope,Branch scope as free text / blank,Consistency,Medium,ALL,
+Critical_Parts_List.xlsx,Critical Parts,D112,scope,Branch scope as free text / blank,Consistency,Medium,ALL,All
+Critical_Parts_List.xlsx,Critical Parts,A114,part_number,Part number format not standardized,Validity,Medium,9R-3862,9R3862
+Critical_Parts_List.xlsx,Critical Parts,D114,scope,Branch scope as free text / blank,Consistency,Medium,ALL,
+Critical_Parts_List.xlsx,Critical Parts,A117,*,Retired items kept in same table below a text separator,Validity,Medium,,
+Forecast_Overrides_export.xlsx,Forecast Overrides,C:C,branch_id,"SharePoint lookup format 'Name;#ID' (ID is list item, not branch ID)",Integrity,High,,
+Forecast_Overrides_export.xlsx,Forecast Overrides,F:F,forecast_month,Month in mixed formats; some missing the year,Validity,High,,
+Forecast_Overrides_export.xlsx,Forecast Overrides,G:G,adjustment_pct,"Adjustment mixes '+15%', 15 and 0.15",Validity,High,,
+Forecast_Overrides_export.xlsx,Forecast Overrides,I:I,approval_status,Approval status mixes codes (0/1/2) and text,Consistency,Medium,,
+Forecast_Overrides_export.xlsx,Forecast Overrides,L:L,submitted_by,User stored as SharePoint claims string,Consistency,Low,,
+Forecast_Overrides_export.xlsx,Forecast Overrides,K:K,submitted_date,"Created timestamp in UTC, other dates local",Consistency,Low,,
+Forecast_Overrides_export.xlsx,Forecast Overrides,row 304,*,Conflicting override for same branch/scope/month,Uniqueness,High,18,
+Forecast_Overrides_export.xlsx,Forecast Overrides,row 305,*,Conflicting override for same branch/scope/month,Uniqueness,High,114,
+Forecast_Overrides_export.xlsx,Forecast Overrides,row 306,*,Conflicting override for same branch/scope/month,Uniqueness,High,186,
+Forecast_Overrides_export.xlsx,Forecast Overrides,row 307,*,Conflicting override for same branch/scope/month,Uniqueness,High,117,
+Forecast_Overrides_export.xlsx,Forecast Overrides,row 308,*,Conflicting override for same branch/scope/month,Uniqueness,High,236,
+Forecast_Overrides_export.xlsx,Forecast Overrides,row 309,*,Duplicate resubmitted override,Uniqueness,High,272,
+Forecast_Overrides_export.xlsx,Forecast Overrides,row 310,*,Duplicate resubmitted override,Uniqueness,High,111,
+Forecast_Overrides_export.xlsx,Forecast Overrides,row 311,*,Duplicate resubmitted override,Uniqueness,High,42,
+Forecast_Overrides_export.xlsx,Forecast Overrides,row 312,*,Duplicate resubmitted override,Uniqueness,High,245,
+Forecast_Overrides_export.xlsx,Forecast Overrides,row 313,*,Duplicate resubmitted override,Uniqueness,High,163,
+Forecast_Overrides_export.xlsx,Forecast Overrides,row 314,*,Duplicate resubmitted override,Uniqueness,High,279,
+Forecast_Overrides_export.xlsx,Forecast Overrides,row 315,*,Duplicate resubmitted override,Uniqueness,High,121,
+Forecast_Overrides_export.xlsx,Forecast Overrides,row 25,adjustment_pct,Adjustment 10x too large (typo),Validity,High,15,150
+Forecast_Overrides_export.xlsx,Forecast Overrides,row 139,adjustment_pct,Adjustment 10x too large (typo),Validity,High,-20,-200
+Forecast_Overrides_export.xlsx,Forecast Overrides,row 230,adjustment_pct,Adjustment 10x too large (typo),Validity,High,-20,-200
+Forecast_Overrides_export.xlsx,Forecast Overrides,row 203,adjustment_pct,Adjustment 10x too large (typo),Validity,High,-20,-200
+Forecast_Overrides_export.xlsx,Forecast Overrides,row 172,branch_id,Missing branch,Completeness,High,B024,
+Forecast_Overrides_export.xlsx,Forecast Overrides,row 270,branch_id,Missing branch,Completeness,High,B026,
+Forecast_Overrides_export.xlsx,Forecast Overrides,row 227,branch_id,Missing branch,Completeness,High,B001,
