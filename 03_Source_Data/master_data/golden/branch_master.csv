@@ -1,0 +1,29 @@
+branch_id,branch_name,region,state,branch_type,open_date,is_active
+B001,Abingdon,Southwest,VA,Full Service,1959-12-01,Y
+B002,Salem,Southwest,VA,Parts & Service,1973-04-01,Y
+B003,Lynchburg,Central,VA,Full Service,2005-02-01,Y
+B004,Richmond,East,VA,Full Service,1995-07-01,Y
+B005,Ashland,East,VA,Full Service,1959-02-01,Y
+B006,Chesapeake,East,VA,Full Service,1972-09-01,Y
+B007,Fredericksburg,North,VA,Full Service,1993-04-01,Y
+B008,Manassas,North,VA,Rental Store,1972-08-01,Y
+B009,Harrisonburg,North,VA,Parts & Service,2009-01-01,Y
+B010,Winchester,North,VA,Full Service,2002-07-01,Y
+B011,Bluefield,Southwest,WV,Parts & Service,1975-03-01,Y
+B012,Beckley,Southwest,WV,Full Service,2006-06-01,Y
+B013,Hagerstown,North,MD,Full Service,1963-07-01,Y
+B014,Salisbury,East,MD,Full Service,1980-06-01,Y
+B015,Danville,Central,VA,Parts & Service,2009-01-01,Y
+B016,Roanoke,Southwest,VA,Rental Store,1992-02-01,Y
+B017,Norfolk,East,VA,Rental Store,1963-09-01,Y
+B018,Charlottesville,Central,VA,Parts & Service,2011-11-01,Y
+B019,Culpeper,North,VA,Parts & Service,1994-04-01,Y
+B020,South Boston,Central,VA,Full Service,1960-11-01,Y
+B021,Wytheville,Southwest,VA,Full Service,2007-05-01,Y
+B022,Grundy,Southwest,VA,Full Service,2012-04-01,Y
+B023,Princeton,Southwest,WV,Full Service,1982-05-01,Y
+B024,Logan,Southwest,WV,Rental Store,1998-06-01,Y
+B025,Baltimore,North,MD,Full Service,1981-06-01,Y
+B026,Waldorf,East,MD,Full Service,2000-05-01,Y
+B027,Frederick,North,MD,Full Service,1996-11-01,Y
+B028,Dover,East,DE,Full Service,1992-12-01,Y

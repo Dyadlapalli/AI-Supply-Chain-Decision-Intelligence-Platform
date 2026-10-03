@@ -1,0 +1,31 @@
+branch_id,branch_name,region,state,branch_type,open_date,is_active
+B007,Fredericksburg,North,VA,Full Service,19930401,Y
+B022,Grundy,Southwest,VA,Full Service,04/01/2012,Y
+B017,Norfolk,East,VA,Rental Store,01-Sep-63,Y
+B001,Abingdon Branch,Southwest,VA,Full Service,01-Dec-59,Y
+B013,Hagerstown,North,MD,Full Service,19630701,Y
+B005,Ashland,Eastern,VA,Full Service,02/01/1959,Y
+B004,RICHMOND,East,VA,Full Service,07/01/95,Y
+B014,Salisbury,East,MD,Full Service,06/01/1980,Y
+B018,Charlottesville,Central,VA,Parts & Service,11/01/2011,Y
+B020,South Boston,Central,Virginia,Full Service,11/01/60,Y
+B023,Princeton,Southwest,WV,Full Service,05/01/1982,Y
+B010,Winchester,North,Virginia,Full Service,01-Jul-02,Y
+B002,Salem,Southwest,Virginia,Parts & Service,04/01/73,Y
+B028,Dover,East,DE,Full Service,12/01/92,Y
+B024,Logan,,West Virginia,Rental Store,19980601,Y
+B905,Ashland Store,Eastern,VA,Full Service,02/01/1959,Y
+B019,Culpeper,North,VA,Parts & Service,19940401,Y
+B016,Roanoke,Southwest,VA,Rental Store,19920201,Y
+B009,Harrisonburg,North,Virginia,Parts & Service,01-Jan-09,Y
+B006,Chesapeake,East,VA,Full Service,09/01/72,Y
+B027,Frederick,North,MD,Full Service,11/01/96,Y
+B012,Beckley,Southwest,WV,Full Service,01-Jun-06,Y
+B015,DANVILLE,Central,VA,Parts & Service,01/01/09,Y
+B008,Manassas,North,VA,Rental Store,08/01/72,Y
+B026,WALDORF,East,MD,Full Service,05/01/2000,Y
+B050,Norton,Southwest,VA,Parts & Service,2004-06-01,N
+B021,Wytheville,Southwest,Virginia,Full Service,05/01/07,Y
+B011,Bluefield,Southwest,West Virginia,Parts & Service,19750301,Y
+B025,Baltimore,North,MD,Full Service,01-Jun-81,Y
+B003,  Lynchburg,Central,VA,Full Service,02/01/2005,Y

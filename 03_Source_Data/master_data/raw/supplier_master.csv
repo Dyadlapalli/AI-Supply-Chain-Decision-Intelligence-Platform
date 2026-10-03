@@ -1,0 +1,47 @@
+supplier_id,supplier_name,supplier_tier,supplier_type,city,state,lead_time_days,on_time_delivery_pct,payment_terms,is_active
+S017,Caterpillar Inc. - Parts Distribution Center Denver,Tier 1,OEM,Denver,CO,4,93.8,Net 60,Y
+S016,Appalachian Fastener Co.,Tier 3,Hardware,Bristol,TN,7,90.2,Net 30,Y
+S027,Bridgestone OTR,Tier 2,Tires,Nashville,TN,40,90.2,Net 45,Y
+S004,Caterpillar Inc. - Machine Order Fulfillment,Tier 1,OEM,Peoria,IL,45,99.4,Net 45,Y
+S104,CATERPILLAR INC. - MACHINE ORDER FULFILLMENT,Tier 1,OEM,Peoria,IL,45,99.4,Net 45,Y
+S013,Atlantic Hydraulic Supply,Tier 3,Distributor,Norfolk,VA,5,84.9,Net 30,Y
+S006,Donaldson Company,Tier 2,Filtration,Bloomington,Minnesota,10,83.2,Net 45,Y
+S122,Eaton Hydraulics ,Tier 2,Hydraulics,Eden Prairie,MN,14,81.3,Net 45,Y
+S029,Delco Remy,Tier 2,Electrical,Pendleton,IN,-7,83.3,Net 45,Y
+S103,Cat Parts Dist Ctr - Atlanta,Tier 1,OEM,Atlanta,GA,3,89.5,Net 30,Y
+S031,Old Dominion Hose & Fitting,Tier 3,Hydraulics,Richmond,VA,3,81.2,Net 60,Y
+S024,Dana Off-Highway,1,Power Train,Maumee,Ohio,30,86.3,Net 45,Y
+S012,Midwest Components,Tier 3,Distributor,Peoria,IL,10 days,85.2,Net 30,Y
+S003,Caterpillar Inc. - Parts Distribution Center Atlanta,Tier 1,OEM,Atlanta,GA,3,89.5,Net 30,Y
+S015,Interstate Batteries,Tier 3,Electrical,Dallas,TX,6,88.5,Net 45,Y
+S005,Caterpillar Reman Services,Tier 1,OEM Reman,Corinth,MS,14,95.1,Net 60,Y
+S123,Bosch Rexroth LLC,Tier 2,Hydraulics,Bethlehem,PA,20,79.6,Net 60,N
+S032,Tidewater Industrial Parts,Tier 3,Distributor,Chesapeake,VA,4,90.9,Net 45,Y
+S114,"Blue Ridge Industrial Supply, Inc.",Tier 3,Distributor,Roanoke,VA,4,84.5,Net 60,Y
+S033,Mountain State Equipment Supply,Tier 3,Distributor,Beckley,WV,5,83.1,Net 30,Y
+S034,Chesapeake Bay Electrical,Tier 3,Electrical,Baltimore,MD,,112.0,Net 45,Y
+S117,Cat Parts Dist Ctr - Denver,Tier 1,OEM,Denver,CO,4,93.8,Net 60,Y
+S020,Solar Turbines,T1,OEM Power,San Diego,CA,,99.5,Net 60,Y
+S010,ITR America,Tier 2,Undercarriage,Lombard,Illinois,,85.8,Net 60,Y
+S035,Shenandoah Cooling Systems,Tier 3,Cooling,Harrisonburg,VA,8,92.6,Net 45,Y
+S025,ZF North America,Tier 2,Power Train,Northville,MI,32,86.3,Net 60,Y
+S036,Keystone Glass & Cab Parts,Tier 3,Cab,Harrisburg,PA,10,85.7,Net 45,Y
+S007,Parker Hannifin,Tier 2,Hydraulics,Cleveland,OH,12,91.3,Net 30,Y
+S030,Grammer Seating,tier 2,Cab,Shelbyville,TN,18 days,76.0,Net 30,Y
+S001,Caterpillar Inc. - Parts Distribution Center Morton,Tier 1,OEM,Morton,IL,3,94.5,Net 30,Y
+S119,Perkins Engines LLC,Tier 1,OEM Engines,Peterborough,UK,,92.2,Net 45,Y
+S023,Bosch Rexroth,Tier 2,Hydraulics,Bethlehem,PA,20 days,79.6,Net 60,Y
+S009,Berco of America,Tier 2,Undercarriage,Mount Prospect,Illinois,28,80.1,Net 30,Y
+S014,Blue Ridge Industrial Supply,Tier 3,Distributor,Roanoke,Virginia,4,84.5,Net 60,Y
+S002,Caterpillar Inc. - Parts Distribution Center York,Tier 1,OEM,York,PA,2,99.5,Net 45,Y
+S028,Michelin Earthmover,1,Tires,Greenville,SC,45,82.9,Net 60,Y
+S011,ESCO Group,Tier 2,Ground Engaging Tools,Portland,OR,18 days,86.6,Net 60,Y
+S135,SHENANDOAH COOLING SYSTEMS,Tier 3,Cooling,Harrisonburg,VA,8,92.6,Net 45,Y
+S019,Perkins Engines,Tier-3,OEM Engines,Peterborough,UK,35,92.2,Net 45,Y
+S026,Hensley Industries,Tier 2,Ground Engaging Tools,Dallas,TX,15,82.3,Net 30,Y
+S022,Eaton Hydraulics,tier 2,Hydraulics,Eden Prairie,MN,14,81.3,Net 45,Y
+S127,Bridgestone OTR ,Tier 2,Tires,Nashville,TN,40,90.2,Net 45,Y
+S021,Cummins Filtration,Tier 2,Filtration,Nashville,TN,,92.7,Net 30,Y
+S018,Caterpillar Inc. - Parts Distribution Center Waco,Tier 1,OEM,Waco,TX,4,98.8,Net 60,Y
+S116,Appalachian Fastener ,Tier 3,Hardware,Bristol,Tennessee,7,90.2,Net 30,Y
+S008,Gates Corporation,Tier 2,Hoses & Belts,Denver,CO,9,85.7,Net 60,Y

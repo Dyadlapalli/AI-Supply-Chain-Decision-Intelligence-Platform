@@ -1,0 +1,11 @@
+product_family_id,product_family_name,product_family_code,business_segment,planning_owner,is_active
+PF001,Excavation,EXC,Construction Industries,Construction Planning Manager,Y
+PF002,Earthmoving,EMV,Construction Industries,Construction Planning Manager,Y
+PF003,Material Handling,MHD,Construction Industries,Compact Equipment Planner,Y
+PF004,Power Systems,PWR,Energy & Transportation,Power Systems Planner,Y
+PF005,Road Construction,RDC,Construction Industries,Paving Products Planner,Y
+PF006,Mining,MIN,Resource Industries,Mining Planning Manager,Y
+PF007,Underground Mining,UGM,Resource Industries,Mining Planning Manager,Y
+PF008,Forestry,FOR,Construction Industries,Forestry Planner,Y
+PF009,Work Tools & Attachments,WTA,Construction Industries,Work Tools Planner,Y
+PF010,Marine & Oil and Gas,MOG,Energy & Transportation,Power Systems Planner,Y

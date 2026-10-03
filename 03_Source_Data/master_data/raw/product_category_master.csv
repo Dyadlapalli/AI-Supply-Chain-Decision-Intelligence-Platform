@@ -1,0 +1,37 @@
+product_category_id,product_category_name,product_family_id
+PC018,Compactors,PF005
+PC011,Skid Steer Loaders,PF003
+PC016,Asphalt Pavers,PF013
+PC022,Gas Generator Sets,PF004
+PC027,Underground Loaders,PF007
+PC015,Industrial Engines,PF004
+PC014,Generator Sets,PF004
+PC032,Hammers,PF099
+PC004,Backhoe Loaders,PF001
+PC013,Telehandlers,PF011
+PC026,Rotary Drills,PF006
+PC021,Material Handlers,PF003
+PC099,Hydraulic Excavators,PF001
+PC012,Compact Track Loader (CTL),PF003
+PC017,Cold Planers,PF005
+PC035,Well Service Engines,PF010
+PC023,Large Mining Trucks,PF002
+PC033,Augers & Grapples,PF009
+PC020,Pipelayers,PF002
+PC031,Forest Machines,PF008
+PC006,Wheel Loaders,PF002
+PC028,Underground Trucks,PF007
+PC030,Track Feller Bunchers,PF008
+PC003,Wheeled Excavators,PF001
+PC034,Marine Engines,PF010
+PC002,Excavators,PF001
+PC007,Motor Graders,PF002
+PC009,OHT,PF002
+PC008,Articulated Trucks,PF002
+PC001,Mini Excavators,PF001
+PC005,Dozers,PF002
+PC024,Hydraulic Mining Shovels,PF006
+PC019,Road Reclaimers,PF005
+PC025,Electric Rope Shovels,PF006
+PC010,Track Loaders,
+PC029,Wheel Skidders,PF008
