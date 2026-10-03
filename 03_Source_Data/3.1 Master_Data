@@ -1,0 +1,192 @@
+# Master Data
+
+## Purpose
+
+Master Data provides the governed reference information used throughout the Supply Chain Decision Intelligence Platform.
+
+This data supports inventory planning, supplier management, forecasting, analytics, AI agents, and executive reporting.
+
+Master Data represents business entities that change infrequently and are reused across multiple business processes.
+
+---
+
+# Branch Master
+
+## Description
+
+Contains branch and regional information used throughout the platform.
+
+## Attributes
+
+- Branch ID
+- Branch Name
+- Region
+- State
+
+## Example
+
+| Branch ID | Branch Name | Region | State |
+|------------|------------|--------|--------|
+| B001 | Abingdon | East | VA |
+| B002 | Chesapeake | East | VA |
+| B003 | Richmond | East | VA |
+
+---
+
+# Product Family Master
+
+## Description
+
+Defines the highest level of the product hierarchy used for strategic supply chain planning and executive reporting.
+
+## Attributes
+
+- Product Family ID
+- Product Family Name
+
+## Example
+
+| Product Family ID | Product Family |
+|-------------------|---------------|
+| PF001 | Excavation |
+| PF002 | Earthmoving |
+| PF003 | Material Handling |
+| PF004 | Power Systems |
+| PF005 | Road Construction |
+
+---
+
+# Product Category Master
+
+## Description
+
+Defines product categories within a product family.
+
+## Attributes
+
+- Product Category ID
+- Product Category Name
+- Product Family ID
+
+## Example
+
+| Product Category ID | Product Category | Product Family |
+|--------------------|------------------|---------------|
+| PC001 | Excavators | Excavation |
+| PC002 | Dozers | Earthmoving |
+| PC003 | Wheel Loaders | Earthmoving |
+
+---
+
+# Product Master
+
+## Description
+
+Contains all products managed within the supply chain network.
+
+## Attributes
+
+- Product ID
+- Product Name
+- Product Category
+- Product Family
+- Criticality
+
+## Example
+
+| Product ID | Product Name | Product Category | Product Family | Criticality |
+|------------|--------------|------------------|---------------|-------------|
+| P001 | CAT 320 | Excavators | Excavation | High |
+| P002 | CAT 336 | Excavators | Excavation | High |
+| P003 | CAT D6 | Dozers | Earthmoving | Medium |
+
+---
+
+# Supplier Master
+
+## Description
+
+Contains supplier reference information used for procurement and supplier performance analytics.
+
+## Attributes
+
+- Supplier ID
+- Supplier Name
+- Supplier Tier
+- Lead Time
+
+## Example
+
+| Supplier ID | Supplier Name | Tier | Lead Time (Days) |
+|------------|--------------|------|------------------|
+| S001 | Caterpillar Manufacturing | Tier 1 | 15 |
+| S002 | Midwest Components | Tier 2 | 10 |
+
+---
+
+# Equipment Master
+
+## Description
+
+Contains equipment model information associated with supported products.
+
+## Attributes
+
+- Equipment ID
+- Equipment Model
+- Equipment Family
+
+## Example
+
+| Equipment ID | Equipment Model | Equipment Family |
+|-------------|----------------|------------------|
+| E001 | CAT 320 | Excavators |
+| E002 | CAT D6 | Dozers |
+
+---
+
+# Master Data Hierarchy
+
+Business reporting and analytics follow the hierarchy below:
+
+Product Family
+↓
+Product Category
+↓
+Product
+↓
+Equipment
+
+Example:
+
+Excavation
+↓
+Excavators
+↓
+CAT 320
+↓
+Individual Equipment Units
+
+Earthmoving
+↓
+Dozers
+↓
+CAT D6
+↓
+Individual Equipment Units
+
+---
+
+# Business Purpose
+
+Master Data serves as the foundation for:
+
+- Data Quality Validation
+- Curated Analytics Models
+- Forecasting
+- Inventory Optimization
+- Supplier Performance Analysis
+- AI Agent Recommendations
+- Executive Decision Support
+
+Master Data integrates with ERP systems, operational databases, business-managed files, and external data sources to create a unified supply chain decision intelligence platform.
