@@ -11,8 +11,11 @@ SQL Server scripts for the platform database `SupplyChainDI`. The design is docu
 | `sql/02_mart_dimensions.sql` | 11 dimensions, including the generated calendar (2018–2027) and Unknown members |
 | `sql/03_mart_facts.sql` | 12 fact tables with foreign keys and columnstore indexes |
 | `sql/04_audit_tables.sql` | `audit.load_log` and the latest-load view (never dropped, keeps load history) |
+| `sql/05_dq_framework.sql` | Data quality framework: rule catalogue, run history, issue register, scorecard views |
+| `dq/rules.sql` | 119 data quality rules, one view per rule (deployed by `run_dq.py`) |
 | `deploy.ps1` | Runs all scripts in order. Safe to rerun: it rebuilds the `mart` tables |
 | `load_raw.py` | Loads every source file into the `raw` layer and records each load in `audit.load_log` |
+| `run_dq.py` | Deploys and runs the data quality rules, prints scorecards |
 
 ## Deploy
 
@@ -43,6 +46,14 @@ Check the latest loads in SSMS:
 ```sql
 SELECT dataset, status, rows_loaded, note, finished_at FROM audit.v_latest_load ORDER BY dataset;
 ```
+
+## Run data quality checks
+
+```powershell
+python 04_Database/run_dq.py
+```
+
+Runs all 119 rules against the `raw` layer (~25 seconds) and prints the data quality score per table and how many of the generators' planted defects were found. Design and results: [2.5 Data_Quality_Rules_and_Results.md](../02_Architecture/2.5%20Data_Quality_Rules_and_Results.md).
 
 ## Connecting (SSMS, Power BI, Python)
 

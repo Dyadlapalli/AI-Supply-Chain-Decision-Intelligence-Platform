@@ -245,7 +245,7 @@ def write_safety_stock(gold, branches, path, log, rng, older=False):
                         ws.cell(r, 3, v)
                         log.add(f, sh, loc(3), "safety_stock_qty", "Text in quantity cell", "Validity", "High", ss, v)
                     elif u < 0.04:
-                        ws.cell(r, 3, None)
+                        ws.cell(r, 3).value = None  # ws.cell(r, 3, None) would be a no-op in openpyxl
                         log.add(f, sh, loc(3), "safety_stock_qty", "Missing safety stock", "Completeness", "High", ss)
                     elif u < 0.05:
                         ws.cell(r, 3, rop + 5)
