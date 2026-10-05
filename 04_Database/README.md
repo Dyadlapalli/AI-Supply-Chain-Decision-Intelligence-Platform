@@ -10,7 +10,9 @@ SQL Server scripts for the platform database `SupplyChainDI`. The design is docu
 | `sql/01_create_schemas.sql` | Layers: `raw`, `clean`, `mart`, `dq`, `audit` |
 | `sql/02_mart_dimensions.sql` | 11 dimensions, including the generated calendar (2018–2027) and Unknown members |
 | `sql/03_mart_facts.sql` | 12 fact tables with foreign keys and columnstore indexes |
+| `sql/04_audit_tables.sql` | `audit.load_log` and the latest-load view (never dropped, keeps load history) |
 | `deploy.ps1` | Runs all scripts in order. Safe to rerun: it rebuilds the `mart` tables |
+| `load_raw.py` | Loads every source file into the `raw` layer and records each load in `audit.load_log` |
 
 ## Deploy
 
@@ -19,6 +21,28 @@ SQL Server scripts for the platform database `SupplyChainDI`. The design is docu
 ```
 
 On Azure SQL Database, create the database in the portal, then run the scripts from `01_` onward.
+
+## Load source data into `raw`
+
+```powershell
+pip install -r requirements.txt
+python 04_Database/load_raw.py                  # all sources (~40 seconds)
+python 04_Database/load_raw.py --source erp     # or: master, business, external
+```
+
+How the raw layer works:
+
+- **Exactly as received.** Every value is stored as text; nothing is cleaned or dropped. Messy values like `18 days` or `Richmond;#4` are preserved for the clean layer to handle.
+- **Excel files are copied cell for cell.** Business workbooks keep their layout (sheet name, Excel row number, every cell as `c01`..`cNN`) plus each row's fill colour, because colour carries meaning (red = P1 critical part) and merged cells or subtotal formulas (`=SUM(...)`) must be recognised, not lost.
+- **Schema drift is detected.** If a file gains or loses columns, the table is extended and the load is logged as `warning` with the details.
+- **All-or-nothing loads.** Each file replaces its table inside a transaction. If anything fails, the previous data stays in place and the failure is logged.
+- **Full audit trail.** Every row has `_load_id`, `_source_file`, `_row_number`, `_loaded_at`. Every load is recorded in `audit.load_log` with row counts and the file's SHA-256 hash.
+
+Check the latest loads in SSMS:
+
+```sql
+SELECT dataset, status, rows_loaded, note, finished_at FROM audit.v_latest_load ORDER BY dataset;
+```
 
 ## Connecting (SSMS, Power BI, Python)
 
