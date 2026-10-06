@@ -99,7 +99,7 @@ python 04_Database/run_mart.py     # ~2 minutes; prints row counts and the KPI c
 The full pipeline, start to finish:
 
 ```powershell
-._Database\deploy.ps1                # schema
+.\04_Database\deploy.ps1              # schema
 python 04_Database/load_raw.py          # sources -> raw
 python 04_Database/run_dq.py            # data quality rules
 python 04_Database/run_clean.py         # raw -> clean
