@@ -28,6 +28,7 @@ BEGIN
     IF @t LIKE N'[0-9]%-[A-Za-z][A-Za-z][A-Za-z]-[0-9][0-9]'     RETURN TRY_CONVERT(DATE, REPLACE(@t, N'-', N' '), 6);
     IF @t LIKE N'Q[1-4] [12][0-9][0-9][0-9]'                     RETURN DATEFROMPARTS(CAST(RIGHT(@t, 4) AS INT), (CAST(SUBSTRING(@t, 2, 1) AS INT) - 1) * 3 + 1, 1);
     IF @t LIKE N'[A-Za-z][A-Za-z][A-Za-z]% [12][0-9][0-9][0-9]'  RETURN TRY_CONVERT(DATE, N'01 ' + @t, 106);
+    IF @t LIKE N'[A-Za-z][A-Za-z][A-Za-z]-[0-9][0-9]'            RETURN TRY_CONVERT(DATE, N'01 ' + LEFT(@t, 3) + N' 20' + RIGHT(@t, 2), 106);  -- Jun-24
     RETURN TRY_CONVERT(DATE, @t);
 END
 GO
@@ -154,7 +155,14 @@ USING (VALUES
     ('tier', N'T1', N'Tier 1'), ('tier', N'1', N'Tier 1'), ('tier', N'tier 2', N'Tier 2'), ('tier', N'Tier-3', N'Tier 3'),
     ('segment', N'CI', N'Construction Industries'),
     ('txn_type', N'ISS', N'Goods Issue'), ('txn_type', N'issue', N'Goods Issue'), ('txn_type', N'GI', N'Goods Issue'),
-    ('txn_type', N'RCPT', N'Goods Receipt'), ('txn_type', N'GR', N'Goods Receipt'), ('txn_type', N'receipt', N'Goods Receipt')
+    ('txn_type', N'RCPT', N'Goods Receipt'), ('txn_type', N'GR', N'Goods Receipt'), ('txn_type', N'receipt', N'Goods Receipt'),
+    -- matched case-insensitively, so 'closed' / 'open' are covered by these entries
+    ('status', N'Closed', N'Closed'), ('status', N'Resolved', N'Closed'), ('status', N'DONE', N'Closed'),
+    ('status', N'Open', N'Open'), ('status', N'In progress', N'Open'), ('status', N'Open?', N'Open'),
+    ('scope', N'ALL', N'ALL'), ('scope', N'all branches', N'ALL'),
+    ('scope', N'Southwest', N'Southwest'), ('scope', N'SW only', N'Southwest'), ('scope', N'Abingdon/Grundy/Bluefield', N'Southwest'),
+    ('approval', N'0', N'Approved'), ('approval', N'1', N'Rejected'), ('approval', N'2', N'Pending'),
+    ('approval', N'Approved', N'Approved'), ('approval', N'Rejected', N'Rejected'), ('approval', N'Pending', N'Pending')
 ) AS s (domain, source_value, approved_value)
 ON t.domain = s.domain AND t.source_value COLLATE Latin1_General_BIN2 = s.source_value COLLATE Latin1_General_BIN2
 WHEN MATCHED THEN UPDATE SET approved_value = s.approved_value

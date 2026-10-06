@@ -24,7 +24,8 @@ sys.path.insert(0, str(Path(__file__).parent))
 from load_raw import SRC, connect  # noqa: E402
 
 CLEAN_DIR = Path(__file__).parent / "clean"
-PROCEDURES = ["clean.usp_build_master", "clean.usp_build_erp"]
+PROCEDURES = ["clean.usp_build_master", "clean.usp_build_erp", "clean.usp_build_business", "clean.usp_build_external"]
+GOLDEN = {"master": "master_data", "erp": "erp_data", "business": "business_files"}
 
 # golden file -> (key column(s), clean table, raw table, {golden column: clean column})
 SCORED = {
@@ -77,6 +78,23 @@ SCORED = {
                                    {c: c for c in ["txn_timestamp", "branch_id", "part_id", "part_number", "txn_type", "qty",
                                                    "unit_of_measure", "reference_type", "reference_id", "balance_after",
                                                    "unit_cost_usd"]}),
+    # Business files: the raw tables are spreadsheet grids, so there is no raw accuracy to compare (None)
+    "business/inventory_policy": (["part_category", "criticality"], "clean.inventory_policy", None,
+                                  {c: c for c in ["service_level_target", "review_cycle_days", "min_days_of_supply",
+                                                  "max_days_of_supply"]}),
+    "business/safety_stock_targets": (["branch_id", "part_id"], "clean.safety_stock_target", None,
+                                      {c: c for c in ["part_number", "safety_stock_qty", "reorder_point_qty", "max_qty",
+                                                      "service_level_target", "effective_date", "approved_by"]}),
+    "business/supplier_exceptions": ("exception_id", "clean.supplier_exception", None,
+                                     {c: c for c in ["supplier_id", "supplier_name", "issue", "impacted_category",
+                                                     "start_date", "expected_resolution", "impact", "status", "owner"]}),
+    "business/critical_parts": ("part_id", "clean.critical_part", None,
+                                {c: c for c in ["part_number", "part_description", "equipment_model", "scope", "priority",
+                                                "reason", "added_by", "added_date"]}),
+    "business/forecast_overrides": ("override_id", "clean.forecast_override", None,
+                                    {c: c for c in ["branch_id", "scope_level", "scope_value", "forecast_month",
+                                                    "adjustment_pct", "reason", "submitted_by", "submitted_date",
+                                                    "approval_status", "approved_by"]}),
 }
 
 
@@ -110,11 +128,11 @@ def score(conn, golden_name, spec) -> dict:
     keys, clean_tbl, raw_tbl, cols = spec
     keys = [keys] if isinstance(keys, str) else keys
     folder, name = golden_name.split("/") if "/" in golden_name else ("master", golden_name)
-    golden = pd.read_csv(SRC / f"{folder}_data" / "golden" / f"{name}.csv", dtype=str, keep_default_na=False)
+    golden = pd.read_csv(SRC / GOLDEN[folder] / "golden" / f"{name}.csv", dtype=str, keep_default_na=False)
     key_cols = [k for k in keys if k not in cols]
     clean = table(conn, clean_tbl, key_cols + list(cols.values()))
-    raw = table(conn, raw_tbl, key_cols + list(cols)).drop_duplicates(subset=keys)
-    for df in (clean, raw):
+    raw = table(conn, raw_tbl, key_cols + list(cols)).drop_duplicates(subset=keys) if raw_tbl else None
+    for df in (clean, raw) if raw is not None else (clean,):
         for k in keys:
             df[k] = df[k].astype(str)
 
@@ -133,11 +151,12 @@ def score(conn, golden_name, spec) -> dict:
         return correct / cells if cells else 0.0
 
     return {
-        "table": clean_tbl, "golden_rows": len(golden), "raw_rows": conn.execute(f"SELECT COUNT(*) FROM {raw_tbl}").fetchval(),
+        "table": clean_tbl, "golden_rows": len(golden),
+        "raw_rows": conn.execute(f"SELECT COUNT(*) FROM {raw_tbl}").fetchval() if raw_tbl else None,
         "clean_rows": len(clean),
         "missing": len(set(map(tuple, golden[keys].values)) - set(map(tuple, clean[keys].values))),
         "extra": len(set(map(tuple, clean[keys].values)) - set(map(tuple, golden[keys].values))),
-        "raw_accuracy": accuracy(raw, {c: c for c in cols}),
+        "raw_accuracy": accuracy(raw, {c: c for c in cols}) if raw is not None else None,
         "clean_accuracy": accuracy(clean, cols),
     }
 
@@ -154,12 +173,14 @@ def main():
         conn.execute(f"EXEC {proc}")
         print(f"  {proc}: {(datetime.now() - t0).total_seconds():.1f}s")
 
-    print(f"\n{'clean table':<24}{'golden':>8}{'raw':>7}{'clean':>7}{'missing':>9}{'extra':>7}"
+    print(f"\n{'clean table':<30}{'golden':>9}{'raw':>9}{'clean':>9}{'missing':>9}{'extra':>7}"
           f"{'raw acc':>10}{'clean acc':>11}")
     for name, spec in SCORED.items():
         r = score(conn, name, spec)
-        print(f"{r['table']:<24}{r['golden_rows']:>8,}{r['raw_rows']:>7,}{r['clean_rows']:>7,}{r['missing']:>9}"
-              f"{r['extra']:>7}{r['raw_accuracy']:>10.1%}{r['clean_accuracy']:>11.1%}")
+        raw_rows = f"{r['raw_rows']:,}" if r["raw_rows"] is not None else "grid"
+        raw_acc = f"{r['raw_accuracy']:.1%}" if r["raw_accuracy"] is not None else "-"
+        print(f"{r['table']:<30}{r['golden_rows']:>9,}{raw_rows:>9}{r['clean_rows']:>9,}{r['missing']:>9}"
+              f"{r['extra']:>7}{raw_acc:>10}{r['clean_accuracy']:>11.1%}")
 
     print("\nQuarantined:")
     for row in conn.execute("SELECT source_table, reason_rule_id, COUNT(*) FROM clean.quarantine "
