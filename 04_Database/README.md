@@ -16,6 +16,7 @@ SQL Server scripts for the platform database `SupplyChainDI`. The design is docu
 | `sql/06_agent_security.sql` | Read-only `dq_agent_reader` user for the AI agents |
 | `sql/07_clean_framework.sql` | Clean layer helpers: date/money/part-number parsing, Data Steward reference data and synonyms, quarantine table |
 | `clean/01_master.sql` | Builds clean master data and crosswalks (source ID -> surviving ID) |
+| `clean/02_erp.sql` | Builds clean ERP transactions, repairing damaged values from related documents |
 | `deploy.ps1` | Runs all scripts in order. Safe to rerun: it rebuilds the `mart` tables |
 | `load_raw.py` | Loads every source file into the `raw` layer and records each load in `audit.load_log` |
 | `run_dq.py` | Deploys and runs the data quality rules, prints scorecards |
@@ -66,19 +67,19 @@ python 04_Database/run_dq.py       # the clean layer uses the rules' findings
 python 04_Database/run_clean.py
 ```
 
-Master data accuracy (share of cells matching the governed reference):
+Accuracy (share of cells matching the governed reference), raw vs. clean:
 
-| Table | Raw | Clean |
-|---|---|---|
-| Branch | 75.0% | 100.0% |
-| Product family | 86.0% | 98.0% |
-| Product category | 90.0% | 100.0% |
-| Product | 95.4% | 100.0% |
-| Supplier | 93.5% | 98.5% |
-| Part | 97.0% | 99.8% |
-| Equipment | 97.6% | 98.6% |
+| Table | Raw | Clean | | Table | Raw | Clean |
+|---|---|---|---|---|---|---|
+| Branch | 75.0% | 100.0% | | Sales order lines | 99.7% | 100.0% |
+| Product family | 86.0% | 98.0% | | Demand | 99.9% | 100.0% |
+| Product category | 90.0% | 100.0% | | Purchase order lines | 99.8% | 99.9% |
+| Product | 95.4% | 100.0% | | Goods receipts | 99.8% | 100.0% |
+| Supplier | 93.5% | 98.5% | | Inventory transactions | 99.8% | 99.9% |
+| Part | 97.0% | 99.8% | | | | |
+| Equipment | 97.6% | 98.6% | | | | |
 
-How values are repaired, in order of preference: standardize the format (dates, part numbers, names), apply the Data Steward's approved values and synonyms, take the value from a duplicate of the same record, infer it from related data (a part's unit cost from its latest purchase order, a supplier's lead time from its promised dates). A value that cannot be repaired is left NULL and stays flagged; it is never guessed.
+How values are repaired, in order of preference: standardize the format (dates, part numbers, names), apply the Data Steward's approved values and synonyms, take the value from a duplicate of the same record, infer it from related data (a part's unit cost from its latest purchase order, a supplier's lead time from its promised dates). A value that cannot be repaired is left NULL and stays flagged; it is never guessed. Design and results: [2.6 Clean_Layer.md](../02_Architecture/2.6%20Clean_Layer.md).
 
 ## Connecting (SSMS, Power BI, Python)
 

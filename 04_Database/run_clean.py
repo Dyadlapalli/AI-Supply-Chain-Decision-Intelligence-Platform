@@ -24,9 +24,9 @@ sys.path.insert(0, str(Path(__file__).parent))
 from load_raw import SRC, connect  # noqa: E402
 
 CLEAN_DIR = Path(__file__).parent / "clean"
-PROCEDURES = ["clean.usp_build_master"]
+PROCEDURES = ["clean.usp_build_master", "clean.usp_build_erp"]
 
-# golden file -> (id column, clean table, raw table, {golden column: clean column})
+# golden file -> (key column(s), clean table, raw table, {golden column: clean column})
 SCORED = {
     "branch_master": ("branch_id", "clean.branch", "raw.master_branch_master",
                       {"branch_name": "branch_name", "region": "region", "state": "state_code",
@@ -56,6 +56,27 @@ SCORED = {
                           "product_category_id": "product_category_id", "model_year": "model_year",
                           "service_meter_hours": "service_meter_hours", "home_branch_id": "home_branch_id",
                           "ownership": "ownership"}),
+    "erp/sales_orders": (["sales_order_id", "so_line"], "clean.sales_order_line", "raw.erp_sales_orders",
+                         {c: c for c in ["order_timestamp", "branch_id", "customer_id", "customer_name", "order_channel",
+                                         "equipment_serial", "part_id", "part_number", "part_description", "qty_ordered",
+                                         "unit_price_usd", "extended_price_usd", "requested_date", "qty_shipped",
+                                         "line_status", "invoice_date"]}),
+    "erp/demand_transactions": ("demand_id", "clean.demand_line", "raw.erp_demand_transactions",
+                                {c: c for c in ["sales_order_id", "so_line", "branch_id", "part_id", "demand_date",
+                                                "demand_source", "qty_demanded", "qty_filled_from_stock", "qty_backordered",
+                                                "qty_backorder_filled", "last_fill_date", "qty_lost_sale", "fill_status"]}),
+    "erp/purchase_orders": (["po_number", "po_line"], "clean.purchase_order_line", "raw.erp_purchase_orders",
+                            {c: c for c in ["po_date", "branch_id", "supplier_id", "part_id", "part_number", "qty_ordered",
+                                            "unit_of_measure", "unit_cost_usd", "line_value_usd", "order_type",
+                                            "promised_date", "qty_received", "last_receipt_date", "line_status"]}),
+    "erp/goods_receipts": (["gr_number", "gr_line"], "clean.goods_receipt_line", "raw.erp_goods_receipts",
+                           {c: c for c in ["receipt_date", "po_number", "po_line", "branch_id", "supplier_id", "part_id",
+                                           "part_number", "qty_received", "qty_accepted", "qty_rejected", "unit_cost_usd",
+                                           "rejection_reason"]}),
+    "erp/inventory_transactions": ("txn_id", "clean.inventory_transaction", "raw.erp_inventory_transactions",
+                                   {c: c for c in ["txn_timestamp", "branch_id", "part_id", "part_number", "txn_type", "qty",
+                                                   "unit_of_measure", "reference_type", "reference_id", "balance_after",
+                                                   "unit_cost_usd"]}),
 }
 
 
@@ -70,6 +91,8 @@ def norm(v) -> str:
     if isinstance(v, (int, float, Decimal)):
         return f"{float(v):.2f}"
     s = str(v)
+    if re.match(r"^\d{4}-\d\d-\d\d[ T]\d\d:\d\d", s):
+        return s[:10]   # timestamps compared at date level: some sources only carry the date
     if s in ("Y", "N"):
         return "1" if s == "Y" else "0"
     try:
@@ -84,15 +107,23 @@ def table(conn, name, cols) -> pd.DataFrame:
 
 
 def score(conn, golden_name, spec) -> dict:
-    id_col, clean_tbl, raw_tbl, cols = spec
-    golden = pd.read_csv(SRC / "master_data" / "golden" / f"{golden_name}.csv", dtype=str, keep_default_na=False)
-    clean = table(conn, clean_tbl, [id_col] + list(cols.values()))
-    raw = table(conn, raw_tbl, [id_col] + list(cols)).drop_duplicates(subset=[id_col])
+    keys, clean_tbl, raw_tbl, cols = spec
+    keys = [keys] if isinstance(keys, str) else keys
+    folder, name = golden_name.split("/") if "/" in golden_name else ("master", golden_name)
+    golden = pd.read_csv(SRC / f"{folder}_data" / "golden" / f"{name}.csv", dtype=str, keep_default_na=False)
+    key_cols = [k for k in keys if k not in cols]
+    clean = table(conn, clean_tbl, key_cols + list(cols.values()))
+    raw = table(conn, raw_tbl, key_cols + list(cols)).drop_duplicates(subset=keys)
+    for df in (clean, raw):
+        for k in keys:
+            df[k] = df[k].astype(str)
 
     def accuracy(df, mapping):
-        merged = golden.merge(df, on=id_col, how="left", suffixes=("", "__x"), indicator=True)
+        merged = golden.merge(df, on=keys, how="left", suffixes=("", "__x"), indicator=True)
         cells = correct = 0
         for g_col, o_col in mapping.items():
+            if g_col in keys:
+                continue
             o_col = o_col if o_col != g_col else g_col + "__x"
             if o_col not in merged:
                 continue
@@ -104,8 +135,8 @@ def score(conn, golden_name, spec) -> dict:
     return {
         "table": clean_tbl, "golden_rows": len(golden), "raw_rows": conn.execute(f"SELECT COUNT(*) FROM {raw_tbl}").fetchval(),
         "clean_rows": len(clean),
-        "missing": len(set(golden[id_col]) - set(clean[id_col].astype(str))),
-        "extra": len(set(clean[id_col].astype(str)) - set(golden[id_col])),
+        "missing": len(set(map(tuple, golden[keys].values)) - set(map(tuple, clean[keys].values))),
+        "extra": len(set(map(tuple, clean[keys].values)) - set(map(tuple, golden[keys].values))),
         "raw_accuracy": accuracy(raw, {c: c for c in cols}),
         "clean_accuracy": accuracy(clean, cols),
     }
