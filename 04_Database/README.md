@@ -13,9 +13,13 @@ SQL Server scripts for the platform database `SupplyChainDI`. The design is docu
 | `sql/04_audit_tables.sql` | `audit.load_log` and the latest-load view (never dropped, keeps load history) |
 | `sql/05_dq_framework.sql` | Data quality framework: rule catalogue, run history, issue register, scorecard views |
 | `dq/rules.sql` | 119 data quality rules, one view per rule (deployed by `run_dq.py`) |
+| `sql/06_agent_security.sql` | Read-only `dq_agent_reader` user for the AI agents |
+| `sql/07_clean_framework.sql` | Clean layer helpers: date/money/part-number parsing, Data Steward reference data and synonyms, quarantine table |
+| `clean/01_master.sql` | Builds clean master data and crosswalks (source ID -> surviving ID) |
 | `deploy.ps1` | Runs all scripts in order. Safe to rerun: it rebuilds the `mart` tables |
 | `load_raw.py` | Loads every source file into the `raw` layer and records each load in `audit.load_log` |
 | `run_dq.py` | Deploys and runs the data quality rules, prints scorecards |
+| `run_clean.py` | Builds the clean layer and scores its accuracy against the golden files |
 
 ## Deploy
 
@@ -54,6 +58,27 @@ python 04_Database/run_dq.py
 ```
 
 Runs all 119 rules against the `raw` layer (~25 seconds) and prints the data quality score per table and how many of the generators' planted defects were found. Design and results: [2.5 Data_Quality_Rules_and_Results.md](../02_Architecture/2.5%20Data_Quality_Rules_and_Results.md).
+
+## Build the clean layer
+
+```powershell
+python 04_Database/run_dq.py       # the clean layer uses the rules' findings
+python 04_Database/run_clean.py
+```
+
+Master data accuracy (share of cells matching the governed reference):
+
+| Table | Raw | Clean |
+|---|---|---|
+| Branch | 75.0% | 100.0% |
+| Product family | 86.0% | 98.0% |
+| Product category | 90.0% | 100.0% |
+| Product | 95.4% | 100.0% |
+| Supplier | 93.5% | 98.5% |
+| Part | 97.0% | 99.8% |
+| Equipment | 97.6% | 98.6% |
+
+How values are repaired, in order of preference: standardize the format (dates, part numbers, names), apply the Data Steward's approved values and synonyms, take the value from a duplicate of the same record, infer it from related data (a part's unit cost from its latest purchase order, a supplier's lead time from its promised dates). A value that cannot be repaired is left NULL and stays flagged; it is never guessed.
 
 ## Connecting (SSMS, Power BI, Python)
 

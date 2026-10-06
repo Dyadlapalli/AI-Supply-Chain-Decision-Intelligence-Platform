@@ -827,7 +827,7 @@ USING (VALUES
  ('M-SU-07', N'Supplier state is not a 2-letter code',                         'Master Data', 'raw.master_supplier_master',                  'state',                'Consistency',  'Low',    'fix'),
  ('M-SU-08', N'Inactive supplier still referenced',                            'Master Data', 'raw.master_supplier_master',                  'is_active',            'Integrity',    'High',   'flag'),
  ('M-EQ-01', N'Equipment home branch missing or invalid',                      'Master Data', 'raw.master_equipment_master',                 'home_branch_id',       'Integrity',    'High',   'fix'),
- ('M-EQ-02', N'Equipment serial number is missing',                            'Master Data', 'raw.master_equipment_master',                 'serial_number',        'Completeness', 'High',   'quarantine'),
+ ('M-EQ-02', N'Equipment serial number is missing',                            'Master Data', 'raw.master_equipment_master',                 'serial_number',        'Completeness', 'High',   'flag'),
  ('M-EQ-03', N'Serial number lower case or padded',                            'Master Data', 'raw.master_equipment_master',                 'serial_number',        'Consistency',  'Low',    'fix'),
  ('M-EQ-04', N'Negative service meter hours',                                  'Master Data', 'raw.master_equipment_master',                 'service_meter_hours',  'Validity',     'Medium', 'fix'),
  ('M-EQ-05', N'Impossible model year',                                         'Master Data', 'raw.master_equipment_master',                 'model_year',           'Validity',     'Medium', 'fix'),
