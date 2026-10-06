@@ -4,3 +4,4 @@ numpy==2.4.6
 openpyxl==3.1.5
 requests==2.32.5
 pyodbc==5.3.0
+anthropic==1.11.0
