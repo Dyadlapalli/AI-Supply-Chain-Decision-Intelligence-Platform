@@ -235,7 +235,7 @@ CREATE TABLE mart.FactDataQualityResult (
 );
 
 CREATE TABLE mart.FactDataLoad (
-    load_id             VARCHAR(40)    NOT NULL CONSTRAINT PK_FactDataLoad PRIMARY KEY,
+    load_id             VARCHAR(60)    NOT NULL CONSTRAINT PK_FactDataLoad PRIMARY KEY,   -- matches audit.load_log
     load_date_key       INT            NOT NULL CONSTRAINT FK_FDL_Date REFERENCES mart.DimDate (date_key),
     source_system       VARCHAR(30)    NOT NULL,   -- ERP / Master Data / Business Files / FRED / NOAA ...
     dataset             VARCHAR(60)    NOT NULL,

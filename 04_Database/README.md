@@ -19,10 +19,14 @@ SQL Server scripts for the platform database `SupplyChainDI`. The design is docu
 | `clean/02_erp.sql` | Builds clean ERP transactions, repairing damaged values from related documents |
 | `clean/03_business.sql` | Interprets the Excel / SharePoint layouts into clean planning tables |
 | `clean/04_external.sql` | Types the API data and removes test alerts |
+| `mart/01_load_dimensions.sql` | Upserts the dimensions (`DimSupplier` as SCD Type 2) |
+| `mart/02_load_facts.sql` | Reloads the facts from the clean layer |
+| `mart/03_load_snapshot.sql` | Builds the daily inventory snapshot (7.5M rows) |
 | `deploy.ps1` | Runs all scripts in order. Safe to rerun: it rebuilds the `mart` tables |
 | `load_raw.py` | Loads every source file into the `raw` layer and records each load in `audit.load_log` |
 | `run_dq.py` | Deploys and runs the data quality rules, prints scorecards |
 | `run_clean.py` | Builds the clean layer and scores its accuracy against the golden files |
+| `run_mart.py` | Loads the star schema and checks its KPIs against the KPI Catalog |
 
 ## Deploy
 
@@ -85,6 +89,24 @@ Accuracy (share of cells matching the governed reference), raw vs. clean:
 | | | | | Forecast overrides (SharePoint) | grid | 96.0% |
 
 How values are repaired, in order of preference: standardize the format (dates, part numbers, names), apply the Data Steward's approved values and synonyms, take the value from a duplicate of the same record, infer it from related data (a part's unit cost from its latest purchase order, a supplier's lead time from its promised dates). A value that cannot be repaired is left NULL and stays flagged; it is never guessed. Design and results: [2.6 Clean_Layer.md](../02_Architecture/2.6%20Clean_Layer.md).
+
+## Load the star schema
+
+```powershell
+python 04_Database/run_mart.py     # ~2 minutes; prints row counts and the KPI check
+```
+
+The full pipeline, start to finish:
+
+```powershell
+._Database\deploy.ps1                # schema
+python 04_Database/load_raw.py          # sources -> raw
+python 04_Database/run_dq.py            # data quality rules
+python 04_Database/run_clean.py         # raw -> clean
+python 04_Database/run_mart.py          # clean -> star schema + KPI check
+```
+
+15 of 18 KPI Catalog baselines are reproduced exactly from the mart; the three small differences are explained in [2.3 Data_Model_Design.md](../02_Architecture/2.3%20Data_Model_Design.md#kpi-validation).
 
 ## Connecting (SSMS, Power BI, Python)
 
